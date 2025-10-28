@@ -1,2 +1,5 @@
-# penelitian1
-Penelitian
+# Penelitian Benchmark Modern Programming Language
+Judul Penelitian:
+EVALUASI PERFORMA CONCURRENCY DAN PARALLELISM PADA BAHASA PEMROGRAMAN MODERN: STUDI KASUS GO, RUST, JAVA, DAN PYTHON
+
+Start: September 2025
