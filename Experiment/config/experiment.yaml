@@ -1,0 +1,77 @@
+experiment:
+  name: concurrency_langs_bench
+  date: 2025-11-16
+  machine_id: asus_vivobook_s14
+  warmup:
+    type: fixed_iterations
+    iterations: 5            # fixed warm-up for JIT runtimes (Java)
+  cpu_pinning: true
+  pinning_cmd: "taskset -c" # used to pin processes/threads
+  perf_profile_only: true   # perf used only for profiling runs
+
+languages:
+  - name: go
+    version: "1.22.x"
+    build: "go build -ldflags \"-s -w\" -trimpath"
+  - name: rust
+    version: "1.81.x"
+    build: "cargo build --release"
+  - name: java
+    version: "openjdk-21"
+    run_flags: "-Xms1G -Xmx1G -XX:+UseG1GC"
+  - name: python
+    version: "3.12.x"
+    note: "multiprocessing (spawn mode)"
+
+workloads:
+  - id: matmul
+    name: "dense_matrix_multiplication"
+    input: "1024x1024"
+    avg_estimated_sec_per_run: 60
+  - id: sort
+    name: "parallel_merge_sort"
+    input: "1_000_000_int32"
+    avg_estimated_sec_per_run: 20
+  - id: pc
+    name: "producer_consumer"
+    input: "4p_4c_q1024_1_000_000_msgs"
+    avg_estimated_sec_per_run: 30
+
+thread_counts: [1, 2, 4, 8]   # scanned levels
+
+adaptive_design:
+  phase1:
+    run_each_config_once: true
+  phase2:
+    select_configs:
+      - baseline: p=1
+      - parallel: "highest p with meaningful improvement from phase1"
+    repeats_per_selected_config: 5
+    aggregation: median    # primary metric, no outlier removal
+
+measurement:
+  timing_tool: "/usr/bin/time -v"
+  profiling_tool: "perf stat -d"
+  profiling_runs: "subset_only"
+  logging: "structured_csv"
+
+logging:
+  output_dir: "experiments/logs/{experiment.date}"
+  raw_csv: "raw_runs.csv"
+  columns:
+    - experiment_id
+    - language
+    - workload_id
+    - p
+    - run_phase
+    - run_index
+    - t_start_utc
+    - t_end_utc
+    - wall_seconds
+    - user_seconds
+    - sys_seconds
+    - max_rss_kb
+    - perf_cycles
+    - perf_instructions
+    - perf_cache_misses
+    - notes
