@@ -18,7 +18,6 @@ languages:
     build: "cargo build --release"
   - name: java
     version: "openjdk-25"
-    run_flags: "-Xms1G -Xmx1G -XX:+UseG1GC"
   - name: python
     version: "3.12.3"
     note: "multiprocessing (spawn mode)"
@@ -54,24 +53,3 @@ measurement:
   profiling_tool: "perf stat -d"
   profiling_runs: "subset_only"
   logging: "structured_csv"
-
-logging:
-  output_dir: "experiments/logs/{experiment.date}"
-  raw_csv: "raw_runs.csv"
-  columns:
-    - experiment_id
-    - language
-    - workload_id
-    - p
-    - run_phase
-    - run_index
-    - t_start_utc
-    - t_end_utc
-    - wall_seconds
-    - user_seconds
-    - sys_seconds
-    - max_rss_kb
-    - perf_cycles
-    - perf_instructions
-    - perf_cache_misses
-    - notes
