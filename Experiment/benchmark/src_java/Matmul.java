@@ -5,7 +5,7 @@ public class Matmul {
     static final int N = 1024;
 
     public static void main(String[] args) throws Exception {
-        int threads = Integer.parseInt(System.getenv("THREADS"));
+        int threads = Integer.parseInt(System.getenv().getOrDefault("THREADS", "1"));
         ExecutorService pool = Executors.newFixedThreadPool(threads);
 
         int[][] A = new int[N][N];
@@ -14,13 +14,12 @@ public class Matmul {
 
         for (int i=0;i<N;i++){
             for(int j=0;j<N;j++){
-                A[i][j]=1; B[i][j]=1;
+                A[i][j]=1; 
+                B[i][j]=1;
             }
         }
 
         int chunk = N / threads;
-
-        long start = System.nanoTime();
 
         List<Future<?>> tasks = new ArrayList<>();
 
@@ -43,11 +42,9 @@ public class Matmul {
         for(Future<?> f: tasks) f.get();
         pool.shutdown();
 
-        double elapsed = (System.nanoTime()-start)/1e9;
-
+        // CLEAN OUTPUT
         System.out.println(
-            "{\"language\":\"java\",\"workload\":\"matrix_multiplication\",\"threads\":"+threads+
-            ",\"run\":1,\"elapsed_s\":"+elapsed+",\"peak_rss_kb\":0,\"cpu_pct\":0.0}"
+            "{\"language\":\"java\",\"workload\":\"matrix_multiplication\",\"threads\":"+threads+"}"
         );
     }
 }

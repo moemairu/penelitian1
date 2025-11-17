@@ -1,0 +1,2760 @@
+{
+  "language": "go",
+  "threads": 1,
+  "workload": "matrix_multiplication",
+  "run_id": "go_phase2_matmul_p_base_p1_r1",
+  "config_type": "p_base",
+  "wall_time_s": 14.290000,
+  "cpu_pct": 98,
+  "peak_rss_kb": 241140,
+  "phase": 2,
+  "repeat": 1
+}
+{
+  "language": "go",
+  "threads": 1,
+  "workload": "matrix_multiplication",
+  "run_id": "go_phase2_matmul_p_base_p1_r2",
+  "config_type": "p_base",
+  "wall_time_s": 13.870000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 245156,
+  "phase": 2,
+  "repeat": 2
+}
+{
+  "language": "go",
+  "threads": 1,
+  "workload": "matrix_multiplication",
+  "run_id": "go_phase2_matmul_p_base_p1_r3",
+  "config_type": "p_base",
+  "wall_time_s": 13.880000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 245612,
+  "phase": 2,
+  "repeat": 3
+}
+{
+  "language": "go",
+  "threads": 1,
+  "workload": "matrix_multiplication",
+  "run_id": "go_phase2_matmul_p_base_p1_r4",
+  "config_type": "p_base",
+  "wall_time_s": 13.840000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 236508,
+  "phase": 2,
+  "repeat": 4
+}
+{
+  "language": "go",
+  "threads": 1,
+  "workload": "matrix_multiplication",
+  "run_id": "go_phase2_matmul_p_base_p1_r5",
+  "config_type": "p_base",
+  "wall_time_s": 13.910000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 239168,
+  "phase": 2,
+  "repeat": 5
+}
+{
+  "language": "go",
+  "threads": 1,
+  "workload": "matrix_multiplication",
+  "run_id": "go_phase2_matmul_p_base_p1_r6",
+  "config_type": "p_base",
+  "wall_time_s": 12.150000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 247840,
+  "phase": 2,
+  "repeat": 6
+}
+{
+  "language": "go",
+  "threads": 1,
+  "workload": "matrix_multiplication",
+  "run_id": "go_phase2_matmul_p_base_p1_r7",
+  "config_type": "p_base",
+  "wall_time_s": 9.810000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 241848,
+  "phase": 2,
+  "repeat": 7
+}
+{
+  "language": "go",
+  "threads": 1,
+  "workload": "matrix_multiplication",
+  "run_id": "go_phase2_matmul_p_base_p1_r8",
+  "config_type": "p_base",
+  "wall_time_s": 9.670000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 243252,
+  "phase": 2,
+  "repeat": 8
+}
+{
+  "language": "go",
+  "threads": 1,
+  "workload": "matrix_multiplication",
+  "run_id": "go_phase2_matmul_p_base_p1_r9",
+  "config_type": "p_base",
+  "wall_time_s": 9.890000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 246276,
+  "phase": 2,
+  "repeat": 9
+}
+{
+  "language": "go",
+  "threads": 1,
+  "workload": "matrix_multiplication",
+  "run_id": "go_phase2_matmul_p_base_p1_r10",
+  "config_type": "p_base",
+  "wall_time_s": 9.660000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 242304,
+  "phase": 2,
+  "repeat": 10
+}
+{
+  "language": "go",
+  "threads": 8,
+  "workload": "matrix_multiplication",
+  "run_id": "go_phase2_matmul_p_best_p8_r1",
+  "config_type": "p_best",
+  "wall_time_s": 2.760000,
+  "cpu_pct": 410,
+  "peak_rss_kb": 228572,
+  "phase": 2,
+  "repeat": 1
+}
+{
+  "language": "go",
+  "threads": 8,
+  "workload": "matrix_multiplication",
+  "run_id": "go_phase2_matmul_p_best_p8_r2",
+  "config_type": "p_best",
+  "wall_time_s": 2.830000,
+  "cpu_pct": 409,
+  "peak_rss_kb": 232568,
+  "phase": 2,
+  "repeat": 2
+}
+{
+  "language": "go",
+  "threads": 8,
+  "workload": "matrix_multiplication",
+  "run_id": "go_phase2_matmul_p_best_p8_r3",
+  "config_type": "p_best",
+  "wall_time_s": 2.790000,
+  "cpu_pct": 405,
+  "peak_rss_kb": 226732,
+  "phase": 2,
+  "repeat": 3
+}
+{
+  "language": "go",
+  "threads": 8,
+  "workload": "matrix_multiplication",
+  "run_id": "go_phase2_matmul_p_best_p8_r4",
+  "config_type": "p_best",
+  "wall_time_s": 2.810000,
+  "cpu_pct": 407,
+  "peak_rss_kb": 231452,
+  "phase": 2,
+  "repeat": 4
+}
+{
+  "language": "go",
+  "threads": 8,
+  "workload": "matrix_multiplication",
+  "run_id": "go_phase2_matmul_p_best_p8_r5",
+  "config_type": "p_best",
+  "wall_time_s": 2.820000,
+  "cpu_pct": 408,
+  "peak_rss_kb": 230664,
+  "phase": 2,
+  "repeat": 5
+}
+{
+  "language": "go",
+  "threads": 8,
+  "workload": "matrix_multiplication",
+  "run_id": "go_phase2_matmul_p_best_p8_r6",
+  "config_type": "p_best",
+  "wall_time_s": 2.880000,
+  "cpu_pct": 413,
+  "peak_rss_kb": 227048,
+  "phase": 2,
+  "repeat": 6
+}
+{
+  "language": "go",
+  "threads": 8,
+  "workload": "matrix_multiplication",
+  "run_id": "go_phase2_matmul_p_best_p8_r7",
+  "config_type": "p_best",
+  "wall_time_s": 2.840000,
+  "cpu_pct": 409,
+  "peak_rss_kb": 227596,
+  "phase": 2,
+  "repeat": 7
+}
+{
+  "language": "go",
+  "threads": 8,
+  "workload": "matrix_multiplication",
+  "run_id": "go_phase2_matmul_p_best_p8_r8",
+  "config_type": "p_best",
+  "wall_time_s": 2.850000,
+  "cpu_pct": 411,
+  "peak_rss_kb": 227104,
+  "phase": 2,
+  "repeat": 8
+}
+{
+  "language": "go",
+  "threads": 8,
+  "workload": "matrix_multiplication",
+  "run_id": "go_phase2_matmul_p_best_p8_r9",
+  "config_type": "p_best",
+  "wall_time_s": 2.830000,
+  "cpu_pct": 409,
+  "peak_rss_kb": 232712,
+  "phase": 2,
+  "repeat": 9
+}
+{
+  "language": "go",
+  "threads": 8,
+  "workload": "matrix_multiplication",
+  "run_id": "go_phase2_matmul_p_best_p8_r10",
+  "config_type": "p_best",
+  "wall_time_s": 2.850000,
+  "cpu_pct": 410,
+  "peak_rss_kb": 229596,
+  "phase": 2,
+  "repeat": 10
+}
+{
+  "language": "go",
+  "threads": 1,
+  "workload": "parallel_sort",
+  "run_id": "go_phase2_sort_p_base_p1_r1",
+  "config_type": "p_base",
+  "wall_time_s": 6.100000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 247504,
+  "phase": 2,
+  "repeat": 1
+}
+{
+  "language": "go",
+  "threads": 1,
+  "workload": "parallel_sort",
+  "run_id": "go_phase2_sort_p_base_p1_r2",
+  "config_type": "p_base",
+  "wall_time_s": 6.080000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 249480,
+  "phase": 2,
+  "repeat": 2
+}
+{
+  "language": "go",
+  "threads": 1,
+  "workload": "parallel_sort",
+  "run_id": "go_phase2_sort_p_base_p1_r3",
+  "config_type": "p_base",
+  "wall_time_s": 6.060000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 247752,
+  "phase": 2,
+  "repeat": 3
+}
+{
+  "language": "go",
+  "threads": 1,
+  "workload": "parallel_sort",
+  "run_id": "go_phase2_sort_p_base_p1_r4",
+  "config_type": "p_base",
+  "wall_time_s": 6.130000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 245448,
+  "phase": 2,
+  "repeat": 4
+}
+{
+  "language": "go",
+  "threads": 1,
+  "workload": "parallel_sort",
+  "run_id": "go_phase2_sort_p_base_p1_r5",
+  "config_type": "p_base",
+  "wall_time_s": 6.050000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 246928,
+  "phase": 2,
+  "repeat": 5
+}
+{
+  "language": "go",
+  "threads": 1,
+  "workload": "parallel_sort",
+  "run_id": "go_phase2_sort_p_base_p1_r6",
+  "config_type": "p_base",
+  "wall_time_s": 6.080000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 247448,
+  "phase": 2,
+  "repeat": 6
+}
+{
+  "language": "go",
+  "threads": 1,
+  "workload": "parallel_sort",
+  "run_id": "go_phase2_sort_p_base_p1_r7",
+  "config_type": "p_base",
+  "wall_time_s": 6.120000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 244852,
+  "phase": 2,
+  "repeat": 7
+}
+{
+  "language": "go",
+  "threads": 1,
+  "workload": "parallel_sort",
+  "run_id": "go_phase2_sort_p_base_p1_r8",
+  "config_type": "p_base",
+  "wall_time_s": 6.170000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 244448,
+  "phase": 2,
+  "repeat": 8
+}
+{
+  "language": "go",
+  "threads": 1,
+  "workload": "parallel_sort",
+  "run_id": "go_phase2_sort_p_base_p1_r9",
+  "config_type": "p_base",
+  "wall_time_s": 6.120000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 254532,
+  "phase": 2,
+  "repeat": 9
+}
+{
+  "language": "go",
+  "threads": 1,
+  "workload": "parallel_sort",
+  "run_id": "go_phase2_sort_p_base_p1_r10",
+  "config_type": "p_base",
+  "wall_time_s": 6.050000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 246804,
+  "phase": 2,
+  "repeat": 10
+}
+{
+  "language": "go",
+  "threads": 8,
+  "workload": "parallel_sort",
+  "run_id": "go_phase2_sort_p_best_p8_r1",
+  "config_type": "p_best",
+  "wall_time_s": 2.230000,
+  "cpu_pct": 318,
+  "peak_rss_kb": 224952,
+  "phase": 2,
+  "repeat": 1
+}
+{
+  "language": "go",
+  "threads": 8,
+  "workload": "parallel_sort",
+  "run_id": "go_phase2_sort_p_best_p8_r2",
+  "config_type": "p_best",
+  "wall_time_s": 2.240000,
+  "cpu_pct": 315,
+  "peak_rss_kb": 230840,
+  "phase": 2,
+  "repeat": 2
+}
+{
+  "language": "go",
+  "threads": 8,
+  "workload": "parallel_sort",
+  "run_id": "go_phase2_sort_p_best_p8_r3",
+  "config_type": "p_best",
+  "wall_time_s": 2.260000,
+  "cpu_pct": 316,
+  "peak_rss_kb": 228584,
+  "phase": 2,
+  "repeat": 3
+}
+{
+  "language": "go",
+  "threads": 8,
+  "workload": "parallel_sort",
+  "run_id": "go_phase2_sort_p_best_p8_r4",
+  "config_type": "p_best",
+  "wall_time_s": 2.240000,
+  "cpu_pct": 320,
+  "peak_rss_kb": 225872,
+  "phase": 2,
+  "repeat": 4
+}
+{
+  "language": "go",
+  "threads": 8,
+  "workload": "parallel_sort",
+  "run_id": "go_phase2_sort_p_best_p8_r5",
+  "config_type": "p_best",
+  "wall_time_s": 2.280000,
+  "cpu_pct": 316,
+  "peak_rss_kb": 228164,
+  "phase": 2,
+  "repeat": 5
+}
+{
+  "language": "go",
+  "threads": 8,
+  "workload": "parallel_sort",
+  "run_id": "go_phase2_sort_p_best_p8_r6",
+  "config_type": "p_best",
+  "wall_time_s": 2.270000,
+  "cpu_pct": 318,
+  "peak_rss_kb": 230044,
+  "phase": 2,
+  "repeat": 6
+}
+{
+  "language": "go",
+  "threads": 8,
+  "workload": "parallel_sort",
+  "run_id": "go_phase2_sort_p_best_p8_r7",
+  "config_type": "p_best",
+  "wall_time_s": 2.260000,
+  "cpu_pct": 317,
+  "peak_rss_kb": 231828,
+  "phase": 2,
+  "repeat": 7
+}
+{
+  "language": "go",
+  "threads": 8,
+  "workload": "parallel_sort",
+  "run_id": "go_phase2_sort_p_best_p8_r8",
+  "config_type": "p_best",
+  "wall_time_s": 2.270000,
+  "cpu_pct": 318,
+  "peak_rss_kb": 237400,
+  "phase": 2,
+  "repeat": 8
+}
+{
+  "language": "go",
+  "threads": 8,
+  "workload": "parallel_sort",
+  "run_id": "go_phase2_sort_p_best_p8_r9",
+  "config_type": "p_best",
+  "wall_time_s": 2.270000,
+  "cpu_pct": 315,
+  "peak_rss_kb": 225312,
+  "phase": 2,
+  "repeat": 9
+}
+{
+  "language": "go",
+  "threads": 8,
+  "workload": "parallel_sort",
+  "run_id": "go_phase2_sort_p_best_p8_r10",
+  "config_type": "p_best",
+  "wall_time_s": 2.270000,
+  "cpu_pct": 317,
+  "peak_rss_kb": 235224,
+  "phase": 2,
+  "repeat": 10
+}
+{
+  "language": "go",
+  "threads": 1,
+  "workload": "producer_consumer",
+  "run_id": "go_phase2_prod-cons_p_base_p1_r1",
+  "config_type": "p_base",
+  "wall_time_s": 6.140000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 252992,
+  "phase": 2,
+  "repeat": 1
+}
+{
+  "language": "go",
+  "threads": 1,
+  "workload": "producer_consumer",
+  "run_id": "go_phase2_prod-cons_p_base_p1_r2",
+  "config_type": "p_base",
+  "wall_time_s": 6.060000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 246812,
+  "phase": 2,
+  "repeat": 2
+}
+{
+  "language": "go",
+  "threads": 1,
+  "workload": "producer_consumer",
+  "run_id": "go_phase2_prod-cons_p_base_p1_r3",
+  "config_type": "p_base",
+  "wall_time_s": 6.120000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 244840,
+  "phase": 2,
+  "repeat": 3
+}
+{
+  "language": "go",
+  "threads": 1,
+  "workload": "producer_consumer",
+  "run_id": "go_phase2_prod-cons_p_base_p1_r4",
+  "config_type": "p_base",
+  "wall_time_s": 6.030000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 247064,
+  "phase": 2,
+  "repeat": 4
+}
+{
+  "language": "go",
+  "threads": 1,
+  "workload": "producer_consumer",
+  "run_id": "go_phase2_prod-cons_p_base_p1_r5",
+  "config_type": "p_base",
+  "wall_time_s": 6.060000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 237252,
+  "phase": 2,
+  "repeat": 5
+}
+{
+  "language": "go",
+  "threads": 1,
+  "workload": "producer_consumer",
+  "run_id": "go_phase2_prod-cons_p_base_p1_r6",
+  "config_type": "p_base",
+  "wall_time_s": 6.100000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 246504,
+  "phase": 2,
+  "repeat": 6
+}
+{
+  "language": "go",
+  "threads": 1,
+  "workload": "producer_consumer",
+  "run_id": "go_phase2_prod-cons_p_base_p1_r7",
+  "config_type": "p_base",
+  "wall_time_s": 6.080000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 245856,
+  "phase": 2,
+  "repeat": 7
+}
+{
+  "language": "go",
+  "threads": 1,
+  "workload": "producer_consumer",
+  "run_id": "go_phase2_prod-cons_p_base_p1_r8",
+  "config_type": "p_base",
+  "wall_time_s": 6.010000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 245984,
+  "phase": 2,
+  "repeat": 8
+}
+{
+  "language": "go",
+  "threads": 1,
+  "workload": "producer_consumer",
+  "run_id": "go_phase2_prod-cons_p_base_p1_r9",
+  "config_type": "p_base",
+  "wall_time_s": 6.090000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 249848,
+  "phase": 2,
+  "repeat": 9
+}
+{
+  "language": "go",
+  "threads": 1,
+  "workload": "producer_consumer",
+  "run_id": "go_phase2_prod-cons_p_base_p1_r10",
+  "config_type": "p_base",
+  "wall_time_s": 6.080000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 239408,
+  "phase": 2,
+  "repeat": 10
+}
+{
+  "language": "go",
+  "threads": 8,
+  "workload": "producer_consumer",
+  "run_id": "go_phase2_prod-cons_p_best_p8_r1",
+  "config_type": "p_best",
+  "wall_time_s": 2.250000,
+  "cpu_pct": 316,
+  "peak_rss_kb": 237080,
+  "phase": 2,
+  "repeat": 1
+}
+{
+  "language": "go",
+  "threads": 8,
+  "workload": "producer_consumer",
+  "run_id": "go_phase2_prod-cons_p_best_p8_r2",
+  "config_type": "p_best",
+  "wall_time_s": 2.260000,
+  "cpu_pct": 316,
+  "peak_rss_kb": 232004,
+  "phase": 2,
+  "repeat": 2
+}
+{
+  "language": "go",
+  "threads": 8,
+  "workload": "producer_consumer",
+  "run_id": "go_phase2_prod-cons_p_best_p8_r3",
+  "config_type": "p_best",
+  "wall_time_s": 2.260000,
+  "cpu_pct": 316,
+  "peak_rss_kb": 228684,
+  "phase": 2,
+  "repeat": 3
+}
+{
+  "language": "go",
+  "threads": 8,
+  "workload": "producer_consumer",
+  "run_id": "go_phase2_prod-cons_p_best_p8_r4",
+  "config_type": "p_best",
+  "wall_time_s": 2.260000,
+  "cpu_pct": 313,
+  "peak_rss_kb": 229256,
+  "phase": 2,
+  "repeat": 4
+}
+{
+  "language": "go",
+  "threads": 8,
+  "workload": "producer_consumer",
+  "run_id": "go_phase2_prod-cons_p_best_p8_r5",
+  "config_type": "p_best",
+  "wall_time_s": 2.280000,
+  "cpu_pct": 317,
+  "peak_rss_kb": 234444,
+  "phase": 2,
+  "repeat": 5
+}
+{
+  "language": "go",
+  "threads": 8,
+  "workload": "producer_consumer",
+  "run_id": "go_phase2_prod-cons_p_best_p8_r6",
+  "config_type": "p_best",
+  "wall_time_s": 2.280000,
+  "cpu_pct": 316,
+  "peak_rss_kb": 227108,
+  "phase": 2,
+  "repeat": 6
+}
+{
+  "language": "go",
+  "threads": 8,
+  "workload": "producer_consumer",
+  "run_id": "go_phase2_prod-cons_p_best_p8_r7",
+  "config_type": "p_best",
+  "wall_time_s": 2.270000,
+  "cpu_pct": 315,
+  "peak_rss_kb": 226748,
+  "phase": 2,
+  "repeat": 7
+}
+{
+  "language": "go",
+  "threads": 8,
+  "workload": "producer_consumer",
+  "run_id": "go_phase2_prod-cons_p_best_p8_r8",
+  "config_type": "p_best",
+  "wall_time_s": 2.280000,
+  "cpu_pct": 315,
+  "peak_rss_kb": 220540,
+  "phase": 2,
+  "repeat": 8
+}
+{
+  "language": "go",
+  "threads": 8,
+  "workload": "producer_consumer",
+  "run_id": "go_phase2_prod-cons_p_best_p8_r9",
+  "config_type": "p_best",
+  "wall_time_s": 2.280000,
+  "cpu_pct": 318,
+  "peak_rss_kb": 224172,
+  "phase": 2,
+  "repeat": 9
+}
+{
+  "language": "go",
+  "threads": 8,
+  "workload": "producer_consumer",
+  "run_id": "go_phase2_prod-cons_p_best_p8_r10",
+  "config_type": "p_best",
+  "wall_time_s": 2.270000,
+  "cpu_pct": 317,
+  "peak_rss_kb": 226492,
+  "phase": 2,
+  "repeat": 10
+}
+{
+  "language": "java",
+  "workload": "matrix_multiplication",
+  "threads": 1,
+  "run_id": "java_phase2_matmul_p_base_p1_r1",
+  "config_type": "p_base",
+  "wall_time_s": 1.100000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 55424,
+  "phase": 2,
+  "repeat": 1
+}
+{
+  "language": "java",
+  "workload": "matrix_multiplication",
+  "threads": 1,
+  "run_id": "java_phase2_matmul_p_base_p1_r2",
+  "config_type": "p_base",
+  "wall_time_s": 1.100000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 55672,
+  "phase": 2,
+  "repeat": 2
+}
+{
+  "language": "java",
+  "workload": "matrix_multiplication",
+  "threads": 1,
+  "run_id": "java_phase2_matmul_p_base_p1_r3",
+  "config_type": "p_base",
+  "wall_time_s": 1.090000,
+  "cpu_pct": 100,
+  "peak_rss_kb": 55388,
+  "phase": 2,
+  "repeat": 3
+}
+{
+  "language": "java",
+  "workload": "matrix_multiplication",
+  "threads": 1,
+  "run_id": "java_phase2_matmul_p_base_p1_r4",
+  "config_type": "p_base",
+  "wall_time_s": 1.090000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 55376,
+  "phase": 2,
+  "repeat": 4
+}
+{
+  "language": "java",
+  "workload": "matrix_multiplication",
+  "threads": 1,
+  "run_id": "java_phase2_matmul_p_base_p1_r5",
+  "config_type": "p_base",
+  "wall_time_s": 1.100000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 55352,
+  "phase": 2,
+  "repeat": 5
+}
+{
+  "language": "java",
+  "workload": "matrix_multiplication",
+  "threads": 1,
+  "run_id": "java_phase2_matmul_p_base_p1_r6",
+  "config_type": "p_base",
+  "wall_time_s": 1.090000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 55680,
+  "phase": 2,
+  "repeat": 6
+}
+{
+  "language": "java",
+  "workload": "matrix_multiplication",
+  "threads": 1,
+  "run_id": "java_phase2_matmul_p_base_p1_r7",
+  "config_type": "p_base",
+  "wall_time_s": 1.090000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 55636,
+  "phase": 2,
+  "repeat": 7
+}
+{
+  "language": "java",
+  "workload": "matrix_multiplication",
+  "threads": 1,
+  "run_id": "java_phase2_matmul_p_base_p1_r8",
+  "config_type": "p_base",
+  "wall_time_s": 1.090000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 55380,
+  "phase": 2,
+  "repeat": 8
+}
+{
+  "language": "java",
+  "workload": "matrix_multiplication",
+  "threads": 1,
+  "run_id": "java_phase2_matmul_p_base_p1_r9",
+  "config_type": "p_base",
+  "wall_time_s": 1.090000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 55676,
+  "phase": 2,
+  "repeat": 9
+}
+{
+  "language": "java",
+  "workload": "matrix_multiplication",
+  "threads": 1,
+  "run_id": "java_phase2_matmul_p_base_p1_r10",
+  "config_type": "p_base",
+  "wall_time_s": 1.090000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 55680,
+  "phase": 2,
+  "repeat": 10
+}
+{
+  "language": "java",
+  "workload": "matrix_multiplication",
+  "threads": 8,
+  "run_id": "java_phase2_matmul_p_best_p8_r1",
+  "config_type": "p_best",
+  "wall_time_s": 0.200000,
+  "cpu_pct": 666,
+  "peak_rss_kb": 57304,
+  "phase": 2,
+  "repeat": 1
+}
+{
+  "language": "java",
+  "workload": "matrix_multiplication",
+  "threads": 8,
+  "run_id": "java_phase2_matmul_p_best_p8_r2",
+  "config_type": "p_best",
+  "wall_time_s": 0.200000,
+  "cpu_pct": 663,
+  "peak_rss_kb": 57488,
+  "phase": 2,
+  "repeat": 2
+}
+{
+  "language": "java",
+  "workload": "matrix_multiplication",
+  "threads": 8,
+  "run_id": "java_phase2_matmul_p_best_p8_r3",
+  "config_type": "p_best",
+  "wall_time_s": 0.200000,
+  "cpu_pct": 668,
+  "peak_rss_kb": 57664,
+  "phase": 2,
+  "repeat": 3
+}
+{
+  "language": "java",
+  "workload": "matrix_multiplication",
+  "threads": 8,
+  "run_id": "java_phase2_matmul_p_best_p8_r4",
+  "config_type": "p_best",
+  "wall_time_s": 0.200000,
+  "cpu_pct": 668,
+  "peak_rss_kb": 57172,
+  "phase": 2,
+  "repeat": 4
+}
+{
+  "language": "java",
+  "workload": "matrix_multiplication",
+  "threads": 8,
+  "run_id": "java_phase2_matmul_p_best_p8_r5",
+  "config_type": "p_best",
+  "wall_time_s": 0.210000,
+  "cpu_pct": 675,
+  "peak_rss_kb": 57676,
+  "phase": 2,
+  "repeat": 5
+}
+{
+  "language": "java",
+  "workload": "matrix_multiplication",
+  "threads": 8,
+  "run_id": "java_phase2_matmul_p_best_p8_r6",
+  "config_type": "p_best",
+  "wall_time_s": 0.210000,
+  "cpu_pct": 671,
+  "peak_rss_kb": 57372,
+  "phase": 2,
+  "repeat": 6
+}
+{
+  "language": "java",
+  "workload": "matrix_multiplication",
+  "threads": 8,
+  "run_id": "java_phase2_matmul_p_best_p8_r7",
+  "config_type": "p_best",
+  "wall_time_s": 0.210000,
+  "cpu_pct": 668,
+  "peak_rss_kb": 57476,
+  "phase": 2,
+  "repeat": 7
+}
+{
+  "language": "java",
+  "workload": "matrix_multiplication",
+  "threads": 8,
+  "run_id": "java_phase2_matmul_p_best_p8_r8",
+  "config_type": "p_best",
+  "wall_time_s": 0.200000,
+  "cpu_pct": 658,
+  "peak_rss_kb": 57340,
+  "phase": 2,
+  "repeat": 8
+}
+{
+  "language": "java",
+  "workload": "matrix_multiplication",
+  "threads": 8,
+  "run_id": "java_phase2_matmul_p_best_p8_r9",
+  "config_type": "p_best",
+  "wall_time_s": 0.200000,
+  "cpu_pct": 666,
+  "peak_rss_kb": 57480,
+  "phase": 2,
+  "repeat": 9
+}
+{
+  "language": "java",
+  "workload": "matrix_multiplication",
+  "threads": 8,
+  "run_id": "java_phase2_matmul_p_best_p8_r10",
+  "config_type": "p_best",
+  "wall_time_s": 0.200000,
+  "cpu_pct": 658,
+  "peak_rss_kb": 57636,
+  "phase": 2,
+  "repeat": 10
+}
+{
+  "language": "java",
+  "workload": "parallel_sort",
+  "threads": 1,
+  "run_id": "java_phase2_sort_p_base_p1_r1",
+  "config_type": "p_base",
+  "wall_time_s": 0.120000,
+  "cpu_pct": 96,
+  "peak_rss_kb": 128464,
+  "phase": 2,
+  "repeat": 1
+}
+{
+  "language": "java",
+  "workload": "parallel_sort",
+  "threads": 1,
+  "run_id": "java_phase2_sort_p_base_p1_r2",
+  "config_type": "p_base",
+  "wall_time_s": 0.130000,
+  "cpu_pct": 97,
+  "peak_rss_kb": 128404,
+  "phase": 2,
+  "repeat": 2
+}
+{
+  "language": "java",
+  "workload": "parallel_sort",
+  "threads": 1,
+  "run_id": "java_phase2_sort_p_base_p1_r3",
+  "config_type": "p_base",
+  "wall_time_s": 0.140000,
+  "cpu_pct": 96,
+  "peak_rss_kb": 128196,
+  "phase": 2,
+  "repeat": 3
+}
+{
+  "language": "java",
+  "workload": "parallel_sort",
+  "threads": 1,
+  "run_id": "java_phase2_sort_p_base_p1_r4",
+  "config_type": "p_base",
+  "wall_time_s": 0.130000,
+  "cpu_pct": 96,
+  "peak_rss_kb": 128304,
+  "phase": 2,
+  "repeat": 4
+}
+{
+  "language": "java",
+  "workload": "parallel_sort",
+  "threads": 1,
+  "run_id": "java_phase2_sort_p_base_p1_r5",
+  "config_type": "p_base",
+  "wall_time_s": 0.130000,
+  "cpu_pct": 95,
+  "peak_rss_kb": 128516,
+  "phase": 2,
+  "repeat": 5
+}
+{
+  "language": "java",
+  "workload": "parallel_sort",
+  "threads": 1,
+  "run_id": "java_phase2_sort_p_base_p1_r6",
+  "config_type": "p_base",
+  "wall_time_s": 0.130000,
+  "cpu_pct": 97,
+  "peak_rss_kb": 128504,
+  "phase": 2,
+  "repeat": 6
+}
+{
+  "language": "java",
+  "workload": "parallel_sort",
+  "threads": 1,
+  "run_id": "java_phase2_sort_p_base_p1_r7",
+  "config_type": "p_base",
+  "wall_time_s": 0.130000,
+  "cpu_pct": 96,
+  "peak_rss_kb": 128480,
+  "phase": 2,
+  "repeat": 7
+}
+{
+  "language": "java",
+  "workload": "parallel_sort",
+  "threads": 1,
+  "run_id": "java_phase2_sort_p_base_p1_r8",
+  "config_type": "p_base",
+  "wall_time_s": 0.130000,
+  "cpu_pct": 96,
+  "peak_rss_kb": 128308,
+  "phase": 2,
+  "repeat": 8
+}
+{
+  "language": "java",
+  "workload": "parallel_sort",
+  "threads": 1,
+  "run_id": "java_phase2_sort_p_base_p1_r9",
+  "config_type": "p_base",
+  "wall_time_s": 0.130000,
+  "cpu_pct": 96,
+  "peak_rss_kb": 128420,
+  "phase": 2,
+  "repeat": 9
+}
+{
+  "language": "java",
+  "workload": "parallel_sort",
+  "threads": 1,
+  "run_id": "java_phase2_sort_p_base_p1_r10",
+  "config_type": "p_base",
+  "wall_time_s": 0.130000,
+  "cpu_pct": 96,
+  "peak_rss_kb": 128428,
+  "phase": 2,
+  "repeat": 10
+}
+{
+  "language": "java",
+  "workload": "parallel_sort",
+  "threads": 4,
+  "run_id": "java_phase2_sort_p_best_p4_r1",
+  "config_type": "p_best",
+  "wall_time_s": 0.080000,
+  "cpu_pct": 267,
+  "peak_rss_kb": 164692,
+  "phase": 2,
+  "repeat": 1
+}
+{
+  "language": "java",
+  "workload": "parallel_sort",
+  "threads": 4,
+  "run_id": "java_phase2_sort_p_best_p4_r2",
+  "config_type": "p_best",
+  "wall_time_s": 0.090000,
+  "cpu_pct": 263,
+  "peak_rss_kb": 166744,
+  "phase": 2,
+  "repeat": 2
+}
+{
+  "language": "java",
+  "workload": "parallel_sort",
+  "threads": 4,
+  "run_id": "java_phase2_sort_p_best_p4_r3",
+  "config_type": "p_best",
+  "wall_time_s": 0.080000,
+  "cpu_pct": 263,
+  "peak_rss_kb": 165544,
+  "phase": 2,
+  "repeat": 3
+}
+{
+  "language": "java",
+  "workload": "parallel_sort",
+  "threads": 4,
+  "run_id": "java_phase2_sort_p_best_p4_r4",
+  "config_type": "p_best",
+  "wall_time_s": 0.090000,
+  "cpu_pct": 273,
+  "peak_rss_kb": 169356,
+  "phase": 2,
+  "repeat": 4
+}
+{
+  "language": "java",
+  "workload": "parallel_sort",
+  "threads": 4,
+  "run_id": "java_phase2_sort_p_best_p4_r5",
+  "config_type": "p_best",
+  "wall_time_s": 0.080000,
+  "cpu_pct": 265,
+  "peak_rss_kb": 166300,
+  "phase": 2,
+  "repeat": 5
+}
+{
+  "language": "java",
+  "workload": "parallel_sort",
+  "threads": 4,
+  "run_id": "java_phase2_sort_p_best_p4_r6",
+  "config_type": "p_best",
+  "wall_time_s": 0.080000,
+  "cpu_pct": 267,
+  "peak_rss_kb": 167312,
+  "phase": 2,
+  "repeat": 6
+}
+{
+  "language": "java",
+  "workload": "parallel_sort",
+  "threads": 4,
+  "run_id": "java_phase2_sort_p_best_p4_r7",
+  "config_type": "p_best",
+  "wall_time_s": 0.100000,
+  "cpu_pct": 264,
+  "peak_rss_kb": 165472,
+  "phase": 2,
+  "repeat": 7
+}
+{
+  "language": "java",
+  "workload": "parallel_sort",
+  "threads": 4,
+  "run_id": "java_phase2_sort_p_best_p4_r8",
+  "config_type": "p_best",
+  "wall_time_s": 0.090000,
+  "cpu_pct": 272,
+  "peak_rss_kb": 164228,
+  "phase": 2,
+  "repeat": 8
+}
+{
+  "language": "java",
+  "workload": "parallel_sort",
+  "threads": 4,
+  "run_id": "java_phase2_sort_p_best_p4_r9",
+  "config_type": "p_best",
+  "wall_time_s": 0.090000,
+  "cpu_pct": 265,
+  "peak_rss_kb": 167788,
+  "phase": 2,
+  "repeat": 9
+}
+{
+  "language": "java",
+  "workload": "parallel_sort",
+  "threads": 4,
+  "run_id": "java_phase2_sort_p_best_p4_r10",
+  "config_type": "p_best",
+  "wall_time_s": 0.090000,
+  "cpu_pct": 280,
+  "peak_rss_kb": 165448,
+  "phase": 2,
+  "repeat": 10
+}
+{
+  "language": "java",
+  "workload": "producer_consumer",
+  "threads": 1,
+  "run_id": "java_phase2_prod-cons_p_base_p1_r1",
+  "config_type": "p_base",
+  "wall_time_s": 0.090000,
+  "cpu_pct": 97,
+  "peak_rss_kb": 43408,
+  "phase": 2,
+  "repeat": 1
+}
+{
+  "language": "java",
+  "workload": "producer_consumer",
+  "threads": 1,
+  "run_id": "java_phase2_prod-cons_p_base_p1_r2",
+  "config_type": "p_base",
+  "wall_time_s": 0.090000,
+  "cpu_pct": 100,
+  "peak_rss_kb": 43460,
+  "phase": 2,
+  "repeat": 2
+}
+{
+  "language": "java",
+  "workload": "producer_consumer",
+  "threads": 1,
+  "run_id": "java_phase2_prod-cons_p_base_p1_r3",
+  "config_type": "p_base",
+  "wall_time_s": 0.100000,
+  "cpu_pct": 93,
+  "peak_rss_kb": 43292,
+  "phase": 2,
+  "repeat": 3
+}
+{
+  "language": "java",
+  "workload": "producer_consumer",
+  "threads": 1,
+  "run_id": "java_phase2_prod-cons_p_base_p1_r4",
+  "config_type": "p_base",
+  "wall_time_s": 0.100000,
+  "cpu_pct": 96,
+  "peak_rss_kb": 43456,
+  "phase": 2,
+  "repeat": 4
+}
+{
+  "language": "java",
+  "workload": "producer_consumer",
+  "threads": 1,
+  "run_id": "java_phase2_prod-cons_p_base_p1_r5",
+  "config_type": "p_base",
+  "wall_time_s": 0.090000,
+  "cpu_pct": 97,
+  "peak_rss_kb": 43388,
+  "phase": 2,
+  "repeat": 5
+}
+{
+  "language": "java",
+  "workload": "producer_consumer",
+  "threads": 1,
+  "run_id": "java_phase2_prod-cons_p_base_p1_r6",
+  "config_type": "p_base",
+  "wall_time_s": 0.090000,
+  "cpu_pct": 98,
+  "peak_rss_kb": 43840,
+  "phase": 2,
+  "repeat": 6
+}
+{
+  "language": "java",
+  "workload": "producer_consumer",
+  "threads": 1,
+  "run_id": "java_phase2_prod-cons_p_base_p1_r7",
+  "config_type": "p_base",
+  "wall_time_s": 0.090000,
+  "cpu_pct": 98,
+  "peak_rss_kb": 43408,
+  "phase": 2,
+  "repeat": 7
+}
+{
+  "language": "java",
+  "workload": "producer_consumer",
+  "threads": 1,
+  "run_id": "java_phase2_prod-cons_p_base_p1_r8",
+  "config_type": "p_base",
+  "wall_time_s": 0.090000,
+  "cpu_pct": 97,
+  "peak_rss_kb": 43552,
+  "phase": 2,
+  "repeat": 8
+}
+{
+  "language": "java",
+  "workload": "producer_consumer",
+  "threads": 1,
+  "run_id": "java_phase2_prod-cons_p_base_p1_r9",
+  "config_type": "p_base",
+  "wall_time_s": 0.090000,
+  "cpu_pct": 100,
+  "peak_rss_kb": 43288,
+  "phase": 2,
+  "repeat": 9
+}
+{
+  "language": "java",
+  "workload": "producer_consumer",
+  "threads": 1,
+  "run_id": "java_phase2_prod-cons_p_base_p1_r10",
+  "config_type": "p_base",
+  "wall_time_s": 0.090000,
+  "cpu_pct": 97,
+  "peak_rss_kb": 43300,
+  "phase": 2,
+  "repeat": 10
+}
+{
+  "language": "java",
+  "workload": "producer_consumer",
+  "threads": 4,
+  "run_id": "java_phase2_prod-cons_p_best_p4_r1",
+  "config_type": "p_best",
+  "wall_time_s": 0.060000,
+  "cpu_pct": 195,
+  "peak_rss_kb": 47176,
+  "phase": 2,
+  "repeat": 1
+}
+{
+  "language": "java",
+  "workload": "producer_consumer",
+  "threads": 4,
+  "run_id": "java_phase2_prod-cons_p_best_p4_r2",
+  "config_type": "p_best",
+  "wall_time_s": 0.060000,
+  "cpu_pct": 187,
+  "peak_rss_kb": 46804,
+  "phase": 2,
+  "repeat": 2
+}
+{
+  "language": "java",
+  "workload": "producer_consumer",
+  "threads": 4,
+  "run_id": "java_phase2_prod-cons_p_best_p4_r3",
+  "config_type": "p_best",
+  "wall_time_s": 0.060000,
+  "cpu_pct": 183,
+  "peak_rss_kb": 46748,
+  "phase": 2,
+  "repeat": 3
+}
+{
+  "language": "java",
+  "workload": "producer_consumer",
+  "threads": 4,
+  "run_id": "java_phase2_prod-cons_p_best_p4_r4",
+  "config_type": "p_best",
+  "wall_time_s": 0.050000,
+  "cpu_pct": 203,
+  "peak_rss_kb": 46568,
+  "phase": 2,
+  "repeat": 4
+}
+{
+  "language": "java",
+  "workload": "producer_consumer",
+  "threads": 4,
+  "run_id": "java_phase2_prod-cons_p_best_p4_r5",
+  "config_type": "p_best",
+  "wall_time_s": 0.050000,
+  "cpu_pct": 205,
+  "peak_rss_kb": 46900,
+  "phase": 2,
+  "repeat": 5
+}
+{
+  "language": "java",
+  "workload": "producer_consumer",
+  "threads": 4,
+  "run_id": "java_phase2_prod-cons_p_best_p4_r6",
+  "config_type": "p_best",
+  "wall_time_s": 0.050000,
+  "cpu_pct": 208,
+  "peak_rss_kb": 47032,
+  "phase": 2,
+  "repeat": 6
+}
+{
+  "language": "java",
+  "workload": "producer_consumer",
+  "threads": 4,
+  "run_id": "java_phase2_prod-cons_p_best_p4_r7",
+  "config_type": "p_best",
+  "wall_time_s": 0.050000,
+  "cpu_pct": 203,
+  "peak_rss_kb": 46792,
+  "phase": 2,
+  "repeat": 7
+}
+{
+  "language": "java",
+  "workload": "producer_consumer",
+  "threads": 4,
+  "run_id": "java_phase2_prod-cons_p_best_p4_r8",
+  "config_type": "p_best",
+  "wall_time_s": 0.060000,
+  "cpu_pct": 188,
+  "peak_rss_kb": 46540,
+  "phase": 2,
+  "repeat": 8
+}
+{
+  "language": "java",
+  "workload": "producer_consumer",
+  "threads": 4,
+  "run_id": "java_phase2_prod-cons_p_best_p4_r9",
+  "config_type": "p_best",
+  "wall_time_s": 0.060000,
+  "cpu_pct": 206,
+  "peak_rss_kb": 46720,
+  "phase": 2,
+  "repeat": 9
+}
+{
+  "language": "java",
+  "workload": "producer_consumer",
+  "threads": 4,
+  "run_id": "java_phase2_prod-cons_p_best_p4_r10",
+  "config_type": "p_best",
+  "wall_time_s": 0.060000,
+  "cpu_pct": 205,
+  "peak_rss_kb": 46604,
+  "phase": 2,
+  "repeat": 10
+}
+{
+  "language": "python",
+  "workload": "matrix_multiplication",
+  "threads": 1,
+  "run_id": "python_phase2_matmul_p_base_p1_r1",
+  "config_type": "p_base",
+  "wall_time_s": 90.730000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 26792,
+  "phase": 2,
+  "repeat": 1
+}
+{
+  "language": "python",
+  "workload": "matrix_multiplication",
+  "threads": 1,
+  "run_id": "python_phase2_matmul_p_base_p1_r2",
+  "config_type": "p_base",
+  "wall_time_s": 92.230000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 26924,
+  "phase": 2,
+  "repeat": 2
+}
+{
+  "language": "python",
+  "workload": "matrix_multiplication",
+  "threads": 1,
+  "run_id": "python_phase2_matmul_p_base_p1_r3",
+  "config_type": "p_base",
+  "wall_time_s": 92.030000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 26924,
+  "phase": 2,
+  "repeat": 3
+}
+{
+  "language": "python",
+  "workload": "matrix_multiplication",
+  "threads": 1,
+  "run_id": "python_phase2_matmul_p_base_p1_r4",
+  "config_type": "p_base",
+  "wall_time_s": 92.740000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 26924,
+  "phase": 2,
+  "repeat": 4
+}
+{
+  "language": "python",
+  "workload": "matrix_multiplication",
+  "threads": 1,
+  "run_id": "python_phase2_matmul_p_base_p1_r5",
+  "config_type": "p_base",
+  "wall_time_s": 89.840000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 26956,
+  "phase": 2,
+  "repeat": 5
+}
+{
+  "language": "python",
+  "workload": "matrix_multiplication",
+  "threads": 1,
+  "run_id": "python_phase2_matmul_p_base_p1_r6",
+  "config_type": "p_base",
+  "wall_time_s": 90.510000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 26776,
+  "phase": 2,
+  "repeat": 6
+}
+{
+  "language": "python",
+  "workload": "matrix_multiplication",
+  "threads": 1,
+  "run_id": "python_phase2_matmul_p_base_p1_r7",
+  "config_type": "p_base",
+  "wall_time_s": 91.060000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 26924,
+  "phase": 2,
+  "repeat": 7
+}
+{
+  "language": "python",
+  "workload": "matrix_multiplication",
+  "threads": 1,
+  "run_id": "python_phase2_matmul_p_base_p1_r8",
+  "config_type": "p_base",
+  "wall_time_s": 90.020000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 26956,
+  "phase": 2,
+  "repeat": 8
+}
+{
+  "language": "python",
+  "workload": "matrix_multiplication",
+  "threads": 1,
+  "run_id": "python_phase2_matmul_p_base_p1_r9",
+  "config_type": "p_base",
+  "wall_time_s": 93.150000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 26848,
+  "phase": 2,
+  "repeat": 9
+}
+{
+  "language": "python",
+  "workload": "matrix_multiplication",
+  "threads": 1,
+  "run_id": "python_phase2_matmul_p_base_p1_r10",
+  "config_type": "p_base",
+  "wall_time_s": 90.770000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 26788,
+  "phase": 2,
+  "repeat": 10
+}
+{
+  "language": "python",
+  "workload": "matrix_multiplication",
+  "threads": 8,
+  "run_id": "python_phase2_matmul_p_best_p8_r1",
+  "config_type": "p_best",
+  "wall_time_s": 13.990000,
+  "cpu_pct": 767,
+  "peak_rss_kb": 26628,
+  "phase": 2,
+  "repeat": 1
+}
+{
+  "language": "python",
+  "workload": "matrix_multiplication",
+  "threads": 8,
+  "run_id": "python_phase2_matmul_p_best_p8_r2",
+  "config_type": "p_best",
+  "wall_time_s": 13.970000,
+  "cpu_pct": 777,
+  "peak_rss_kb": 26776,
+  "phase": 2,
+  "repeat": 2
+}
+{
+  "language": "python",
+  "workload": "matrix_multiplication",
+  "threads": 8,
+  "run_id": "python_phase2_matmul_p_best_p8_r3",
+  "config_type": "p_best",
+  "wall_time_s": 14.100000,
+  "cpu_pct": 771,
+  "peak_rss_kb": 26788,
+  "phase": 2,
+  "repeat": 3
+}
+{
+  "language": "python",
+  "workload": "matrix_multiplication",
+  "threads": 8,
+  "run_id": "python_phase2_matmul_p_best_p8_r4",
+  "config_type": "p_best",
+  "wall_time_s": 13.830000,
+  "cpu_pct": 770,
+  "peak_rss_kb": 26776,
+  "phase": 2,
+  "repeat": 4
+}
+{
+  "language": "python",
+  "workload": "matrix_multiplication",
+  "threads": 8,
+  "run_id": "python_phase2_matmul_p_best_p8_r5",
+  "config_type": "p_best",
+  "wall_time_s": 13.850000,
+  "cpu_pct": 774,
+  "peak_rss_kb": 26556,
+  "phase": 2,
+  "repeat": 5
+}
+{
+  "language": "python",
+  "workload": "matrix_multiplication",
+  "threads": 8,
+  "run_id": "python_phase2_matmul_p_best_p8_r6",
+  "config_type": "p_best",
+  "wall_time_s": 13.940000,
+  "cpu_pct": 772,
+  "peak_rss_kb": 26792,
+  "phase": 2,
+  "repeat": 6
+}
+{
+  "language": "python",
+  "workload": "matrix_multiplication",
+  "threads": 8,
+  "run_id": "python_phase2_matmul_p_best_p8_r7",
+  "config_type": "p_best",
+  "wall_time_s": 16.530000,
+  "cpu_pct": 676,
+  "peak_rss_kb": 26776,
+  "phase": 2,
+  "repeat": 7
+}
+{
+  "language": "python",
+  "workload": "matrix_multiplication",
+  "threads": 8,
+  "run_id": "python_phase2_matmul_p_best_p8_r8",
+  "config_type": "p_best",
+  "wall_time_s": 13.960000,
+  "cpu_pct": 775,
+  "peak_rss_kb": 26784,
+  "phase": 2,
+  "repeat": 8
+}
+{
+  "language": "python",
+  "workload": "matrix_multiplication",
+  "threads": 8,
+  "run_id": "python_phase2_matmul_p_best_p8_r9",
+  "config_type": "p_best",
+  "wall_time_s": 14.070000,
+  "cpu_pct": 772,
+  "peak_rss_kb": 26652,
+  "phase": 2,
+  "repeat": 9
+}
+{
+  "language": "python",
+  "workload": "matrix_multiplication",
+  "threads": 8,
+  "run_id": "python_phase2_matmul_p_best_p8_r10",
+  "config_type": "p_best",
+  "wall_time_s": 17.100000,
+  "cpu_pct": 755,
+  "peak_rss_kb": 26776,
+  "phase": 2,
+  "repeat": 10
+}
+{
+  "language": "python",
+  "workload": "parallel_sort",
+  "threads": 1,
+  "run_id": "python_phase2_sort_p_base_p1_r1",
+  "config_type": "p_base",
+  "wall_time_s": 0.860000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 86612,
+  "phase": 2,
+  "repeat": 1
+}
+{
+  "language": "python",
+  "workload": "parallel_sort",
+  "threads": 1,
+  "run_id": "python_phase2_sort_p_base_p1_r2",
+  "config_type": "p_base",
+  "wall_time_s": 0.840000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 86588,
+  "phase": 2,
+  "repeat": 2
+}
+{
+  "language": "python",
+  "workload": "parallel_sort",
+  "threads": 1,
+  "run_id": "python_phase2_sort_p_base_p1_r3",
+  "config_type": "p_base",
+  "wall_time_s": 0.840000,
+  "cpu_pct": 100,
+  "peak_rss_kb": 86604,
+  "phase": 2,
+  "repeat": 3
+}
+{
+  "language": "python",
+  "workload": "parallel_sort",
+  "threads": 1,
+  "run_id": "python_phase2_sort_p_base_p1_r4",
+  "config_type": "p_base",
+  "wall_time_s": 0.830000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 86604,
+  "phase": 2,
+  "repeat": 4
+}
+{
+  "language": "python",
+  "workload": "parallel_sort",
+  "threads": 1,
+  "run_id": "python_phase2_sort_p_base_p1_r5",
+  "config_type": "p_base",
+  "wall_time_s": 0.830000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 86592,
+  "phase": 2,
+  "repeat": 5
+}
+{
+  "language": "python",
+  "workload": "parallel_sort",
+  "threads": 1,
+  "run_id": "python_phase2_sort_p_base_p1_r6",
+  "config_type": "p_base",
+  "wall_time_s": 0.830000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 86600,
+  "phase": 2,
+  "repeat": 6
+}
+{
+  "language": "python",
+  "workload": "parallel_sort",
+  "threads": 1,
+  "run_id": "python_phase2_sort_p_base_p1_r7",
+  "config_type": "p_base",
+  "wall_time_s": 0.830000,
+  "cpu_pct": 100,
+  "peak_rss_kb": 86608,
+  "phase": 2,
+  "repeat": 7
+}
+{
+  "language": "python",
+  "workload": "parallel_sort",
+  "threads": 1,
+  "run_id": "python_phase2_sort_p_base_p1_r8",
+  "config_type": "p_base",
+  "wall_time_s": 0.830000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 86596,
+  "phase": 2,
+  "repeat": 8
+}
+{
+  "language": "python",
+  "workload": "parallel_sort",
+  "threads": 1,
+  "run_id": "python_phase2_sort_p_base_p1_r9",
+  "config_type": "p_base",
+  "wall_time_s": 0.820000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 86608,
+  "phase": 2,
+  "repeat": 9
+}
+{
+  "language": "python",
+  "workload": "parallel_sort",
+  "threads": 1,
+  "run_id": "python_phase2_sort_p_base_p1_r10",
+  "config_type": "p_base",
+  "wall_time_s": 0.830000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 86548,
+  "phase": 2,
+  "repeat": 10
+}
+{
+  "language": "python",
+  "workload": "parallel_sort",
+  "threads": 4,
+  "run_id": "python_phase2_sort_p_best_p4_r1",
+  "config_type": "p_best",
+  "wall_time_s": 0.470000,
+  "cpu_pct": 234,
+  "peak_rss_kb": 115544,
+  "phase": 2,
+  "repeat": 1
+}
+{
+  "language": "python",
+  "workload": "parallel_sort",
+  "threads": 4,
+  "run_id": "python_phase2_sort_p_best_p4_r2",
+  "config_type": "p_best",
+  "wall_time_s": 0.460000,
+  "cpu_pct": 240,
+  "peak_rss_kb": 115672,
+  "phase": 2,
+  "repeat": 2
+}
+{
+  "language": "python",
+  "workload": "parallel_sort",
+  "threads": 4,
+  "run_id": "python_phase2_sort_p_best_p4_r3",
+  "config_type": "p_best",
+  "wall_time_s": 0.460000,
+  "cpu_pct": 240,
+  "peak_rss_kb": 115020,
+  "phase": 2,
+  "repeat": 3
+}
+{
+  "language": "python",
+  "workload": "parallel_sort",
+  "threads": 4,
+  "run_id": "python_phase2_sort_p_best_p4_r4",
+  "config_type": "p_best",
+  "wall_time_s": 0.460000,
+  "cpu_pct": 236,
+  "peak_rss_kb": 115240,
+  "phase": 2,
+  "repeat": 4
+}
+{
+  "language": "python",
+  "workload": "parallel_sort",
+  "threads": 4,
+  "run_id": "python_phase2_sort_p_best_p4_r5",
+  "config_type": "p_best",
+  "wall_time_s": 0.460000,
+  "cpu_pct": 240,
+  "peak_rss_kb": 115908,
+  "phase": 2,
+  "repeat": 5
+}
+{
+  "language": "python",
+  "workload": "parallel_sort",
+  "threads": 4,
+  "run_id": "python_phase2_sort_p_best_p4_r6",
+  "config_type": "p_best",
+  "wall_time_s": 0.460000,
+  "cpu_pct": 243,
+  "peak_rss_kb": 115108,
+  "phase": 2,
+  "repeat": 6
+}
+{
+  "language": "python",
+  "workload": "parallel_sort",
+  "threads": 4,
+  "run_id": "python_phase2_sort_p_best_p4_r7",
+  "config_type": "p_best",
+  "wall_time_s": 0.470000,
+  "cpu_pct": 242,
+  "peak_rss_kb": 115828,
+  "phase": 2,
+  "repeat": 7
+}
+{
+  "language": "python",
+  "workload": "parallel_sort",
+  "threads": 4,
+  "run_id": "python_phase2_sort_p_best_p4_r8",
+  "config_type": "p_best",
+  "wall_time_s": 0.470000,
+  "cpu_pct": 237,
+  "peak_rss_kb": 115340,
+  "phase": 2,
+  "repeat": 8
+}
+{
+  "language": "python",
+  "workload": "parallel_sort",
+  "threads": 4,
+  "run_id": "python_phase2_sort_p_best_p4_r9",
+  "config_type": "p_best",
+  "wall_time_s": 0.460000,
+  "cpu_pct": 240,
+  "peak_rss_kb": 115860,
+  "phase": 2,
+  "repeat": 9
+}
+{
+  "language": "python",
+  "workload": "parallel_sort",
+  "threads": 4,
+  "run_id": "python_phase2_sort_p_best_p4_r10",
+  "config_type": "p_best",
+  "wall_time_s": 0.460000,
+  "cpu_pct": 240,
+  "peak_rss_kb": 115248,
+  "phase": 2,
+  "repeat": 10
+}
+{
+  "language": "python",
+  "workload": "producer_consumer",
+  "threads": 1,
+  "run_id": "python_phase2_prod-cons_p_base_p1_r1",
+  "config_type": "p_base",
+  "wall_time_s": 6.510000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 14408,
+  "phase": 2,
+  "repeat": 1
+}
+{
+  "language": "python",
+  "workload": "producer_consumer",
+  "threads": 1,
+  "run_id": "python_phase2_prod-cons_p_base_p1_r2",
+  "config_type": "p_base",
+  "wall_time_s": 6.440000,
+  "cpu_pct": 100,
+  "peak_rss_kb": 14552,
+  "phase": 2,
+  "repeat": 2
+}
+{
+  "language": "python",
+  "workload": "producer_consumer",
+  "threads": 1,
+  "run_id": "python_phase2_prod-cons_p_base_p1_r3",
+  "config_type": "p_base",
+  "wall_time_s": 6.380000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 14416,
+  "phase": 2,
+  "repeat": 3
+}
+{
+  "language": "python",
+  "workload": "producer_consumer",
+  "threads": 1,
+  "run_id": "python_phase2_prod-cons_p_base_p1_r4",
+  "config_type": "p_base",
+  "wall_time_s": 6.370000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 14544,
+  "phase": 2,
+  "repeat": 4
+}
+{
+  "language": "python",
+  "workload": "producer_consumer",
+  "threads": 1,
+  "run_id": "python_phase2_prod-cons_p_base_p1_r5",
+  "config_type": "p_base",
+  "wall_time_s": 6.420000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 14508,
+  "phase": 2,
+  "repeat": 5
+}
+{
+  "language": "python",
+  "workload": "producer_consumer",
+  "threads": 1,
+  "run_id": "python_phase2_prod-cons_p_base_p1_r6",
+  "config_type": "p_base",
+  "wall_time_s": 6.510000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 14356,
+  "phase": 2,
+  "repeat": 6
+}
+{
+  "language": "python",
+  "workload": "producer_consumer",
+  "threads": 1,
+  "run_id": "python_phase2_prod-cons_p_base_p1_r7",
+  "config_type": "p_base",
+  "wall_time_s": 6.480000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 14552,
+  "phase": 2,
+  "repeat": 7
+}
+{
+  "language": "python",
+  "workload": "producer_consumer",
+  "threads": 1,
+  "run_id": "python_phase2_prod-cons_p_base_p1_r8",
+  "config_type": "p_base",
+  "wall_time_s": 6.440000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 14364,
+  "phase": 2,
+  "repeat": 8
+}
+{
+  "language": "python",
+  "workload": "producer_consumer",
+  "threads": 1,
+  "run_id": "python_phase2_prod-cons_p_base_p1_r9",
+  "config_type": "p_base",
+  "wall_time_s": 6.410000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 14396,
+  "phase": 2,
+  "repeat": 9
+}
+{
+  "language": "python",
+  "workload": "producer_consumer",
+  "threads": 1,
+  "run_id": "python_phase2_prod-cons_p_base_p1_r10",
+  "config_type": "p_base",
+  "wall_time_s": 6.520000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 14392,
+  "phase": 2,
+  "repeat": 10
+}
+{
+  "language": "python",
+  "workload": "producer_consumer",
+  "threads": 2,
+  "run_id": "python_phase2_prod-cons_p_best_p2_r1",
+  "config_type": "p_best",
+  "wall_time_s": 3.200000,
+  "cpu_pct": 186,
+  "peak_rss_kb": 14348,
+  "phase": 2,
+  "repeat": 1
+}
+{
+  "language": "python",
+  "workload": "producer_consumer",
+  "threads": 2,
+  "run_id": "python_phase2_prod-cons_p_best_p2_r2",
+  "config_type": "p_best",
+  "wall_time_s": 3.360000,
+  "cpu_pct": 181,
+  "peak_rss_kb": 14360,
+  "phase": 2,
+  "repeat": 2
+}
+{
+  "language": "python",
+  "workload": "producer_consumer",
+  "threads": 2,
+  "run_id": "python_phase2_prod-cons_p_best_p2_r3",
+  "config_type": "p_best",
+  "wall_time_s": 3.280000,
+  "cpu_pct": 184,
+  "peak_rss_kb": 14364,
+  "phase": 2,
+  "repeat": 3
+}
+{
+  "language": "python",
+  "workload": "producer_consumer",
+  "threads": 2,
+  "run_id": "python_phase2_prod-cons_p_best_p2_r4",
+  "config_type": "p_best",
+  "wall_time_s": 3.370000,
+  "cpu_pct": 181,
+  "peak_rss_kb": 14328,
+  "phase": 2,
+  "repeat": 4
+}
+{
+  "language": "python",
+  "workload": "producer_consumer",
+  "threads": 2,
+  "run_id": "python_phase2_prod-cons_p_best_p2_r5",
+  "config_type": "p_best",
+  "wall_time_s": 3.420000,
+  "cpu_pct": 179,
+  "peak_rss_kb": 14200,
+  "phase": 2,
+  "repeat": 5
+}
+{
+  "language": "python",
+  "workload": "producer_consumer",
+  "threads": 2,
+  "run_id": "python_phase2_prod-cons_p_best_p2_r6",
+  "config_type": "p_best",
+  "wall_time_s": 3.340000,
+  "cpu_pct": 182,
+  "peak_rss_kb": 14148,
+  "phase": 2,
+  "repeat": 6
+}
+{
+  "language": "python",
+  "workload": "producer_consumer",
+  "threads": 2,
+  "run_id": "python_phase2_prod-cons_p_best_p2_r7",
+  "config_type": "p_best",
+  "wall_time_s": 3.360000,
+  "cpu_pct": 182,
+  "peak_rss_kb": 14344,
+  "phase": 2,
+  "repeat": 7
+}
+{
+  "language": "python",
+  "workload": "producer_consumer",
+  "threads": 2,
+  "run_id": "python_phase2_prod-cons_p_best_p2_r8",
+  "config_type": "p_best",
+  "wall_time_s": 3.260000,
+  "cpu_pct": 186,
+  "peak_rss_kb": 14356,
+  "phase": 2,
+  "repeat": 8
+}
+{
+  "language": "python",
+  "workload": "producer_consumer",
+  "threads": 2,
+  "run_id": "python_phase2_prod-cons_p_best_p2_r9",
+  "config_type": "p_best",
+  "wall_time_s": 3.350000,
+  "cpu_pct": 182,
+  "peak_rss_kb": 14536,
+  "phase": 2,
+  "repeat": 9
+}
+{
+  "language": "python",
+  "workload": "producer_consumer",
+  "threads": 2,
+  "run_id": "python_phase2_prod-cons_p_best_p2_r10",
+  "config_type": "p_best",
+  "wall_time_s": 3.340000,
+  "cpu_pct": 183,
+  "peak_rss_kb": 14364,
+  "phase": 2,
+  "repeat": 10
+}
+{
+  "language": "rust",
+  "workload": "matrix_multiplication",
+  "threads": 1,
+  "run_id": "rust_phase2_matmul_p_base_p1_r1",
+  "config_type": "p_base",
+  "wall_time_s": 1.120000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 18728,
+  "phase": 2,
+  "repeat": 1
+}
+{
+  "language": "rust",
+  "workload": "matrix_multiplication",
+  "threads": 1,
+  "run_id": "rust_phase2_matmul_p_base_p1_r2",
+  "config_type": "p_base",
+  "wall_time_s": 1.120000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 18540,
+  "phase": 2,
+  "repeat": 2
+}
+{
+  "language": "rust",
+  "workload": "matrix_multiplication",
+  "threads": 1,
+  "run_id": "rust_phase2_matmul_p_base_p1_r3",
+  "config_type": "p_base",
+  "wall_time_s": 1.120000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 18728,
+  "phase": 2,
+  "repeat": 3
+}
+{
+  "language": "rust",
+  "workload": "matrix_multiplication",
+  "threads": 1,
+  "run_id": "rust_phase2_matmul_p_base_p1_r4",
+  "config_type": "p_base",
+  "wall_time_s": 1.110000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 18684,
+  "phase": 2,
+  "repeat": 4
+}
+{
+  "language": "rust",
+  "workload": "matrix_multiplication",
+  "threads": 1,
+  "run_id": "rust_phase2_matmul_p_base_p1_r5",
+  "config_type": "p_base",
+  "wall_time_s": 1.130000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 18604,
+  "phase": 2,
+  "repeat": 5
+}
+{
+  "language": "rust",
+  "workload": "matrix_multiplication",
+  "threads": 1,
+  "run_id": "rust_phase2_matmul_p_base_p1_r6",
+  "config_type": "p_base",
+  "wall_time_s": 1.120000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 18728,
+  "phase": 2,
+  "repeat": 6
+}
+{
+  "language": "rust",
+  "workload": "matrix_multiplication",
+  "threads": 1,
+  "run_id": "rust_phase2_matmul_p_base_p1_r7",
+  "config_type": "p_base",
+  "wall_time_s": 1.120000,
+  "cpu_pct": 100,
+  "peak_rss_kb": 18540,
+  "phase": 2,
+  "repeat": 7
+}
+{
+  "language": "rust",
+  "workload": "matrix_multiplication",
+  "threads": 1,
+  "run_id": "rust_phase2_matmul_p_base_p1_r8",
+  "config_type": "p_base",
+  "wall_time_s": 1.120000,
+  "cpu_pct": 100,
+  "peak_rss_kb": 18728,
+  "phase": 2,
+  "repeat": 8
+}
+{
+  "language": "rust",
+  "workload": "matrix_multiplication",
+  "threads": 1,
+  "run_id": "rust_phase2_matmul_p_base_p1_r9",
+  "config_type": "p_base",
+  "wall_time_s": 1.120000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 18604,
+  "phase": 2,
+  "repeat": 9
+}
+{
+  "language": "rust",
+  "workload": "matrix_multiplication",
+  "threads": 1,
+  "run_id": "rust_phase2_matmul_p_base_p1_r10",
+  "config_type": "p_base",
+  "wall_time_s": 1.120000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 18660,
+  "phase": 2,
+  "repeat": 10
+}
+{
+  "language": "rust",
+  "workload": "matrix_multiplication",
+  "threads": 8,
+  "run_id": "rust_phase2_matmul_p_best_p8_r1",
+  "config_type": "p_best",
+  "wall_time_s": 0.160000,
+  "cpu_pct": 736,
+  "peak_rss_kb": 18476,
+  "phase": 2,
+  "repeat": 1
+}
+{
+  "language": "rust",
+  "workload": "matrix_multiplication",
+  "threads": 8,
+  "run_id": "rust_phase2_matmul_p_best_p8_r2",
+  "config_type": "p_best",
+  "wall_time_s": 0.160000,
+  "cpu_pct": 754,
+  "peak_rss_kb": 18412,
+  "phase": 2,
+  "repeat": 2
+}
+{
+  "language": "rust",
+  "workload": "matrix_multiplication",
+  "threads": 8,
+  "run_id": "rust_phase2_matmul_p_best_p8_r3",
+  "config_type": "p_best",
+  "wall_time_s": 0.160000,
+  "cpu_pct": 758,
+  "peak_rss_kb": 18540,
+  "phase": 2,
+  "repeat": 3
+}
+{
+  "language": "rust",
+  "workload": "matrix_multiplication",
+  "threads": 8,
+  "run_id": "rust_phase2_matmul_p_best_p8_r4",
+  "config_type": "p_best",
+  "wall_time_s": 0.150000,
+  "cpu_pct": 761,
+  "peak_rss_kb": 18412,
+  "phase": 2,
+  "repeat": 4
+}
+{
+  "language": "rust",
+  "workload": "matrix_multiplication",
+  "threads": 8,
+  "run_id": "rust_phase2_matmul_p_best_p8_r5",
+  "config_type": "p_best",
+  "wall_time_s": 0.160000,
+  "cpu_pct": 757,
+  "peak_rss_kb": 18540,
+  "phase": 2,
+  "repeat": 5
+}
+{
+  "language": "rust",
+  "workload": "matrix_multiplication",
+  "threads": 8,
+  "run_id": "rust_phase2_matmul_p_best_p8_r6",
+  "config_type": "p_best",
+  "wall_time_s": 0.160000,
+  "cpu_pct": 759,
+  "peak_rss_kb": 18476,
+  "phase": 2,
+  "repeat": 6
+}
+{
+  "language": "rust",
+  "workload": "matrix_multiplication",
+  "threads": 8,
+  "run_id": "rust_phase2_matmul_p_best_p8_r7",
+  "config_type": "p_best",
+  "wall_time_s": 0.160000,
+  "cpu_pct": 758,
+  "peak_rss_kb": 18224,
+  "phase": 2,
+  "repeat": 7
+}
+{
+  "language": "rust",
+  "workload": "matrix_multiplication",
+  "threads": 8,
+  "run_id": "rust_phase2_matmul_p_best_p8_r8",
+  "config_type": "p_best",
+  "wall_time_s": 0.160000,
+  "cpu_pct": 759,
+  "peak_rss_kb": 18728,
+  "phase": 2,
+  "repeat": 8
+}
+{
+  "language": "rust",
+  "workload": "matrix_multiplication",
+  "threads": 8,
+  "run_id": "rust_phase2_matmul_p_best_p8_r9",
+  "config_type": "p_best",
+  "wall_time_s": 0.160000,
+  "cpu_pct": 727,
+  "peak_rss_kb": 18348,
+  "phase": 2,
+  "repeat": 9
+}
+{
+  "language": "rust",
+  "workload": "matrix_multiplication",
+  "threads": 8,
+  "run_id": "rust_phase2_matmul_p_best_p8_r10",
+  "config_type": "p_best",
+  "wall_time_s": 0.160000,
+  "cpu_pct": 755,
+  "peak_rss_kb": 18412,
+  "phase": 2,
+  "repeat": 10
+}
+{
+  "language": "rust",
+  "workload": "parallel_sort",
+  "threads": 1,
+  "run_id": "rust_phase2_sort_p_base_p1_r1",
+  "config_type": "p_base",
+  "wall_time_s": 0.040000,
+  "cpu_pct": 97,
+  "peak_rss_kb": 17316,
+  "phase": 2,
+  "repeat": 1
+}
+{
+  "language": "rust",
+  "workload": "parallel_sort",
+  "threads": 1,
+  "run_id": "rust_phase2_sort_p_base_p1_r2",
+  "config_type": "p_base",
+  "wall_time_s": 0.040000,
+  "cpu_pct": 100,
+  "peak_rss_kb": 17324,
+  "phase": 2,
+  "repeat": 2
+}
+{
+  "language": "rust",
+  "workload": "parallel_sort",
+  "threads": 1,
+  "run_id": "rust_phase2_sort_p_base_p1_r3",
+  "config_type": "p_base",
+  "wall_time_s": 0.040000,
+  "cpu_pct": 100,
+  "peak_rss_kb": 17320,
+  "phase": 2,
+  "repeat": 3
+}
+{
+  "language": "rust",
+  "workload": "parallel_sort",
+  "threads": 1,
+  "run_id": "rust_phase2_sort_p_base_p1_r4",
+  "config_type": "p_base",
+  "wall_time_s": 0.040000,
+  "cpu_pct": 97,
+  "peak_rss_kb": 17324,
+  "phase": 2,
+  "repeat": 4
+}
+{
+  "language": "rust",
+  "workload": "parallel_sort",
+  "threads": 1,
+  "run_id": "rust_phase2_sort_p_base_p1_r5",
+  "config_type": "p_base",
+  "wall_time_s": 0.040000,
+  "cpu_pct": 97,
+  "peak_rss_kb": 17324,
+  "phase": 2,
+  "repeat": 5
+}
+{
+  "language": "rust",
+  "workload": "parallel_sort",
+  "threads": 1,
+  "run_id": "rust_phase2_sort_p_base_p1_r6",
+  "config_type": "p_base",
+  "wall_time_s": 0.040000,
+  "cpu_pct": 100,
+  "peak_rss_kb": 17324,
+  "phase": 2,
+  "repeat": 6
+}
+{
+  "language": "rust",
+  "workload": "parallel_sort",
+  "threads": 1,
+  "run_id": "rust_phase2_sort_p_base_p1_r7",
+  "config_type": "p_base",
+  "wall_time_s": 0.040000,
+  "cpu_pct": 97,
+  "peak_rss_kb": 17320,
+  "phase": 2,
+  "repeat": 7
+}
+{
+  "language": "rust",
+  "workload": "parallel_sort",
+  "threads": 1,
+  "run_id": "rust_phase2_sort_p_base_p1_r8",
+  "config_type": "p_base",
+  "wall_time_s": 0.040000,
+  "cpu_pct": 100,
+  "peak_rss_kb": 17380,
+  "phase": 2,
+  "repeat": 8
+}
+{
+  "language": "rust",
+  "workload": "parallel_sort",
+  "threads": 1,
+  "run_id": "rust_phase2_sort_p_base_p1_r9",
+  "config_type": "p_base",
+  "wall_time_s": 0.040000,
+  "cpu_pct": 100,
+  "peak_rss_kb": 17320,
+  "phase": 2,
+  "repeat": 9
+}
+{
+  "language": "rust",
+  "workload": "parallel_sort",
+  "threads": 1,
+  "run_id": "rust_phase2_sort_p_base_p1_r10",
+  "config_type": "p_base",
+  "wall_time_s": 0.040000,
+  "cpu_pct": 97,
+  "peak_rss_kb": 17260,
+  "phase": 2,
+  "repeat": 10
+}
+{
+  "language": "rust",
+  "workload": "parallel_sort",
+  "threads": 8,
+  "run_id": "rust_phase2_sort_p_best_p8_r1",
+  "config_type": "p_best",
+  "wall_time_s": 0.020000,
+  "cpu_pct": 245,
+  "peak_rss_kb": 24076,
+  "phase": 2,
+  "repeat": 1
+}
+{
+  "language": "rust",
+  "workload": "parallel_sort",
+  "threads": 8,
+  "run_id": "rust_phase2_sort_p_best_p8_r2",
+  "config_type": "p_best",
+  "wall_time_s": 0.030000,
+  "cpu_pct": 175,
+  "peak_rss_kb": 23784,
+  "phase": 2,
+  "repeat": 2
+}
+{
+  "language": "rust",
+  "workload": "parallel_sort",
+  "threads": 8,
+  "run_id": "rust_phase2_sort_p_best_p8_r3",
+  "config_type": "p_best",
+  "wall_time_s": 0.010000,
+  "cpu_pct": 257,
+  "peak_rss_kb": 24296,
+  "phase": 2,
+  "repeat": 3
+}
+{
+  "language": "rust",
+  "workload": "parallel_sort",
+  "threads": 8,
+  "run_id": "rust_phase2_sort_p_best_p8_r4",
+  "config_type": "p_best",
+  "wall_time_s": 0.020000,
+  "cpu_pct": 233,
+  "peak_rss_kb": 23880,
+  "phase": 2,
+  "repeat": 4
+}
+{
+  "language": "rust",
+  "workload": "parallel_sort",
+  "threads": 8,
+  "run_id": "rust_phase2_sort_p_best_p8_r5",
+  "config_type": "p_best",
+  "wall_time_s": 0.010000,
+  "cpu_pct": 252,
+  "peak_rss_kb": 24268,
+  "phase": 2,
+  "repeat": 5
+}
+{
+  "language": "rust",
+  "workload": "parallel_sort",
+  "threads": 8,
+  "run_id": "rust_phase2_sort_p_best_p8_r6",
+  "config_type": "p_best",
+  "wall_time_s": 0.020000,
+  "cpu_pct": 245,
+  "peak_rss_kb": 23512,
+  "phase": 2,
+  "repeat": 6
+}
+{
+  "language": "rust",
+  "workload": "parallel_sort",
+  "threads": 8,
+  "run_id": "rust_phase2_sort_p_best_p8_r7",
+  "config_type": "p_best",
+  "wall_time_s": 0.020000,
+  "cpu_pct": 207,
+  "peak_rss_kb": 22768,
+  "phase": 2,
+  "repeat": 7
+}
+{
+  "language": "rust",
+  "workload": "parallel_sort",
+  "threads": 8,
+  "run_id": "rust_phase2_sort_p_best_p8_r8",
+  "config_type": "p_best",
+  "wall_time_s": 0.010000,
+  "cpu_pct": 252,
+  "peak_rss_kb": 24420,
+  "phase": 2,
+  "repeat": 8
+}
+{
+  "language": "rust",
+  "workload": "parallel_sort",
+  "threads": 8,
+  "run_id": "rust_phase2_sort_p_best_p8_r9",
+  "config_type": "p_best",
+  "wall_time_s": 0.020000,
+  "cpu_pct": 240,
+  "peak_rss_kb": 24136,
+  "phase": 2,
+  "repeat": 9
+}
+{
+  "language": "rust",
+  "workload": "parallel_sort",
+  "threads": 8,
+  "run_id": "rust_phase2_sort_p_best_p8_r10",
+  "config_type": "p_best",
+  "wall_time_s": 0.020000,
+  "cpu_pct": 235,
+  "peak_rss_kb": 24248,
+  "phase": 2,
+  "repeat": 10
+}
+{
+  "language": "rust",
+  "workload": "producer_consumer",
+  "threads": 1,
+  "run_id": "rust_phase2_prod-cons_p_base_p1_r1",
+  "config_type": "p_base",
+  "wall_time_s": 0.020000,
+  "cpu_pct": 100,
+  "peak_rss_kb": 2388,
+  "phase": 2,
+  "repeat": 1
+}
+{
+  "language": "rust",
+  "workload": "producer_consumer",
+  "threads": 1,
+  "run_id": "rust_phase2_prod-cons_p_base_p1_r2",
+  "config_type": "p_base",
+  "wall_time_s": 0.020000,
+  "cpu_pct": 100,
+  "peak_rss_kb": 2344,
+  "phase": 2,
+  "repeat": 2
+}
+{
+  "language": "rust",
+  "workload": "producer_consumer",
+  "threads": 1,
+  "run_id": "rust_phase2_prod-cons_p_base_p1_r3",
+  "config_type": "p_base",
+  "wall_time_s": 0.020000,
+  "cpu_pct": 100,
+  "peak_rss_kb": 2240,
+  "phase": 2,
+  "repeat": 3
+}
+{
+  "language": "rust",
+  "workload": "producer_consumer",
+  "threads": 1,
+  "run_id": "rust_phase2_prod-cons_p_base_p1_r4",
+  "config_type": "p_base",
+  "wall_time_s": 0.020000,
+  "cpu_pct": 95,
+  "peak_rss_kb": 2344,
+  "phase": 2,
+  "repeat": 4
+}
+{
+  "language": "rust",
+  "workload": "producer_consumer",
+  "threads": 1,
+  "run_id": "rust_phase2_prod-cons_p_base_p1_r5",
+  "config_type": "p_base",
+  "wall_time_s": 0.020000,
+  "cpu_pct": 95,
+  "peak_rss_kb": 2344,
+  "phase": 2,
+  "repeat": 5
+}
+{
+  "language": "rust",
+  "workload": "producer_consumer",
+  "threads": 1,
+  "run_id": "rust_phase2_prod-cons_p_base_p1_r6",
+  "config_type": "p_base",
+  "wall_time_s": 0.020000,
+  "cpu_pct": 95,
+  "peak_rss_kb": 2288,
+  "phase": 2,
+  "repeat": 6
+}
+{
+  "language": "rust",
+  "workload": "producer_consumer",
+  "threads": 1,
+  "run_id": "rust_phase2_prod-cons_p_base_p1_r7",
+  "config_type": "p_base",
+  "wall_time_s": 0.020000,
+  "cpu_pct": 95,
+  "peak_rss_kb": 2240,
+  "phase": 2,
+  "repeat": 7
+}
+{
+  "language": "rust",
+  "workload": "producer_consumer",
+  "threads": 1,
+  "run_id": "rust_phase2_prod-cons_p_base_p1_r8",
+  "config_type": "p_base",
+  "wall_time_s": 0.020000,
+  "cpu_pct": 100,
+  "peak_rss_kb": 2360,
+  "phase": 2,
+  "repeat": 8
+}
+{
+  "language": "rust",
+  "workload": "producer_consumer",
+  "threads": 1,
+  "run_id": "rust_phase2_prod-cons_p_base_p1_r9",
+  "config_type": "p_base",
+  "wall_time_s": 0.020000,
+  "cpu_pct": 100,
+  "peak_rss_kb": 2240,
+  "phase": 2,
+  "repeat": 9
+}
+{
+  "language": "rust",
+  "workload": "producer_consumer",
+  "threads": 1,
+  "run_id": "rust_phase2_prod-cons_p_base_p1_r10",
+  "config_type": "p_base",
+  "wall_time_s": 0.020000,
+  "cpu_pct": 100,
+  "peak_rss_kb": 2240,
+  "phase": 2,
+  "repeat": 10
+}

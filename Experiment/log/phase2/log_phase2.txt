@@ -1,0 +1,1050 @@
+=== Phase 2 Benchmark Started at 2025-11-17T21:21:09+0700 ===
+Logs → /home/mole/penelitian1/Experiment/log/phase2.jsonl
+
+[INIT] check cpu governor...
+  → governor = performance
+
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+=== java warm-up (5x each workload) ===
+[WARM-UP] Matmul (5x)
+[WARM-UP] ParallelSort (5x)
+[WARM-UP] ProdCons (5x)
+
+
+==========================================
+Testing: go - matmul
+==========================================
+  p_base=1, p_best=8
+
+--- Running p_base (p=1) ---
+[RUN] go | matmul | p_base (p=1) | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | matmul | p_base (p=1) | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | matmul | p_base (p=1) | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | matmul | p_base (p=1) | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | matmul | p_base (p=1) | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | matmul | p_base (p=1) | repeat 6
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | matmul | p_base (p=1) | repeat 7
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | matmul | p_base (p=1) | repeat 8
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | matmul | p_base (p=1) | repeat 9
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | matmul | p_base (p=1) | repeat 10
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+
+--- Running p_best (p=8) ---
+[RUN] go | matmul | p_best (p=8) | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | matmul | p_best (p=8) | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | matmul | p_best (p=8) | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | matmul | p_best (p=8) | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | matmul | p_best (p=8) | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | matmul | p_best (p=8) | repeat 6
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | matmul | p_best (p=8) | repeat 7
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | matmul | p_best (p=8) | repeat 8
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | matmul | p_best (p=8) | repeat 9
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | matmul | p_best (p=8) | repeat 10
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+
+==========================================
+Testing: go - sort
+==========================================
+  p_base=1, p_best=8
+
+--- Running p_base (p=1) ---
+[RUN] go | sort | p_base (p=1) | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | sort | p_base (p=1) | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | sort | p_base (p=1) | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | sort | p_base (p=1) | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | sort | p_base (p=1) | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | sort | p_base (p=1) | repeat 6
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | sort | p_base (p=1) | repeat 7
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | sort | p_base (p=1) | repeat 8
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | sort | p_base (p=1) | repeat 9
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | sort | p_base (p=1) | repeat 10
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+
+--- Running p_best (p=8) ---
+[RUN] go | sort | p_best (p=8) | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | sort | p_best (p=8) | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | sort | p_best (p=8) | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | sort | p_best (p=8) | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | sort | p_best (p=8) | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | sort | p_best (p=8) | repeat 6
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | sort | p_best (p=8) | repeat 7
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | sort | p_best (p=8) | repeat 8
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | sort | p_best (p=8) | repeat 9
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | sort | p_best (p=8) | repeat 10
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+
+==========================================
+Testing: go - prod-cons
+==========================================
+  p_base=1, p_best=8
+
+--- Running p_base (p=1) ---
+[RUN] go | prod-cons | p_base (p=1) | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | prod-cons | p_base (p=1) | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | prod-cons | p_base (p=1) | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | prod-cons | p_base (p=1) | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | prod-cons | p_base (p=1) | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | prod-cons | p_base (p=1) | repeat 6
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | prod-cons | p_base (p=1) | repeat 7
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | prod-cons | p_base (p=1) | repeat 8
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | prod-cons | p_base (p=1) | repeat 9
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | prod-cons | p_base (p=1) | repeat 10
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+
+--- Running p_best (p=8) ---
+[RUN] go | prod-cons | p_best (p=8) | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | prod-cons | p_best (p=8) | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | prod-cons | p_best (p=8) | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | prod-cons | p_best (p=8) | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | prod-cons | p_best (p=8) | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | prod-cons | p_best (p=8) | repeat 6
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | prod-cons | p_best (p=8) | repeat 7
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | prod-cons | p_best (p=8) | repeat 8
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | prod-cons | p_best (p=8) | repeat 9
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | prod-cons | p_best (p=8) | repeat 10
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+
+==========================================
+Testing: java - matmul
+==========================================
+  p_base=1, p_best=8
+
+--- Running p_base (p=1) ---
+[RUN] java | matmul | p_base (p=1) | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | matmul | p_base (p=1) | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | matmul | p_base (p=1) | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | matmul | p_base (p=1) | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | matmul | p_base (p=1) | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | matmul | p_base (p=1) | repeat 6
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | matmul | p_base (p=1) | repeat 7
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | matmul | p_base (p=1) | repeat 8
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | matmul | p_base (p=1) | repeat 9
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | matmul | p_base (p=1) | repeat 10
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+
+--- Running p_best (p=8) ---
+[RUN] java | matmul | p_best (p=8) | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | matmul | p_best (p=8) | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | matmul | p_best (p=8) | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | matmul | p_best (p=8) | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | matmul | p_best (p=8) | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | matmul | p_best (p=8) | repeat 6
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | matmul | p_best (p=8) | repeat 7
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | matmul | p_best (p=8) | repeat 8
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | matmul | p_best (p=8) | repeat 9
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | matmul | p_best (p=8) | repeat 10
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+
+==========================================
+Testing: java - sort
+==========================================
+  p_base=1, p_best=4
+
+--- Running p_base (p=1) ---
+[RUN] java | sort | p_base (p=1) | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | sort | p_base (p=1) | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | sort | p_base (p=1) | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | sort | p_base (p=1) | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | sort | p_base (p=1) | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | sort | p_base (p=1) | repeat 6
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | sort | p_base (p=1) | repeat 7
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | sort | p_base (p=1) | repeat 8
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | sort | p_base (p=1) | repeat 9
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | sort | p_base (p=1) | repeat 10
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+
+--- Running p_best (p=4) ---
+[RUN] java | sort | p_best (p=4) | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | sort | p_best (p=4) | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | sort | p_best (p=4) | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | sort | p_best (p=4) | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | sort | p_best (p=4) | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | sort | p_best (p=4) | repeat 6
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | sort | p_best (p=4) | repeat 7
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | sort | p_best (p=4) | repeat 8
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | sort | p_best (p=4) | repeat 9
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | sort | p_best (p=4) | repeat 10
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+
+==========================================
+Testing: java - prod-cons
+==========================================
+  p_base=1, p_best=4
+
+--- Running p_base (p=1) ---
+[RUN] java | prod-cons | p_base (p=1) | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | prod-cons | p_base (p=1) | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | prod-cons | p_base (p=1) | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | prod-cons | p_base (p=1) | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | prod-cons | p_base (p=1) | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | prod-cons | p_base (p=1) | repeat 6
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | prod-cons | p_base (p=1) | repeat 7
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | prod-cons | p_base (p=1) | repeat 8
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | prod-cons | p_base (p=1) | repeat 9
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | prod-cons | p_base (p=1) | repeat 10
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+
+--- Running p_best (p=4) ---
+[RUN] java | prod-cons | p_best (p=4) | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | prod-cons | p_best (p=4) | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | prod-cons | p_best (p=4) | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | prod-cons | p_best (p=4) | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | prod-cons | p_best (p=4) | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | prod-cons | p_best (p=4) | repeat 6
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | prod-cons | p_best (p=4) | repeat 7
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | prod-cons | p_best (p=4) | repeat 8
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | prod-cons | p_best (p=4) | repeat 9
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | prod-cons | p_best (p=4) | repeat 10
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+
+==========================================
+Testing: python - matmul
+==========================================
+  p_base=1, p_best=8
+
+--- Running p_base (p=1) ---
+[RUN] python | matmul | p_base (p=1) | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | matmul | p_base (p=1) | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | matmul | p_base (p=1) | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | matmul | p_base (p=1) | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | matmul | p_base (p=1) | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | matmul | p_base (p=1) | repeat 6
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | matmul | p_base (p=1) | repeat 7
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | matmul | p_base (p=1) | repeat 8
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | matmul | p_base (p=1) | repeat 9
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | matmul | p_base (p=1) | repeat 10
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+
+--- Running p_best (p=8) ---
+[RUN] python | matmul | p_best (p=8) | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | matmul | p_best (p=8) | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | matmul | p_best (p=8) | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | matmul | p_best (p=8) | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | matmul | p_best (p=8) | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | matmul | p_best (p=8) | repeat 6
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | matmul | p_best (p=8) | repeat 7
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | matmul | p_best (p=8) | repeat 8
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | matmul | p_best (p=8) | repeat 9
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | matmul | p_best (p=8) | repeat 10
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+
+==========================================
+Testing: python - sort
+==========================================
+  p_base=1, p_best=4
+
+--- Running p_base (p=1) ---
+[RUN] python | sort | p_base (p=1) | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | sort | p_base (p=1) | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | sort | p_base (p=1) | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | sort | p_base (p=1) | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | sort | p_base (p=1) | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | sort | p_base (p=1) | repeat 6
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | sort | p_base (p=1) | repeat 7
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | sort | p_base (p=1) | repeat 8
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | sort | p_base (p=1) | repeat 9
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | sort | p_base (p=1) | repeat 10
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+
+--- Running p_best (p=4) ---
+[RUN] python | sort | p_best (p=4) | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | sort | p_best (p=4) | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | sort | p_best (p=4) | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | sort | p_best (p=4) | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | sort | p_best (p=4) | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | sort | p_best (p=4) | repeat 6
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | sort | p_best (p=4) | repeat 7
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | sort | p_best (p=4) | repeat 8
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | sort | p_best (p=4) | repeat 9
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | sort | p_best (p=4) | repeat 10
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+
+==========================================
+Testing: python - prod-cons
+==========================================
+  p_base=1, p_best=2
+
+--- Running p_base (p=1) ---
+[RUN] python | prod-cons | p_base (p=1) | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | prod-cons | p_base (p=1) | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | prod-cons | p_base (p=1) | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | prod-cons | p_base (p=1) | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | prod-cons | p_base (p=1) | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | prod-cons | p_base (p=1) | repeat 6
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | prod-cons | p_base (p=1) | repeat 7
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | prod-cons | p_base (p=1) | repeat 8
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | prod-cons | p_base (p=1) | repeat 9
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | prod-cons | p_base (p=1) | repeat 10
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+
+--- Running p_best (p=2) ---
+[RUN] python | prod-cons | p_best (p=2) | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | prod-cons | p_best (p=2) | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | prod-cons | p_best (p=2) | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | prod-cons | p_best (p=2) | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | prod-cons | p_best (p=2) | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | prod-cons | p_best (p=2) | repeat 6
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | prod-cons | p_best (p=2) | repeat 7
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | prod-cons | p_best (p=2) | repeat 8
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | prod-cons | p_best (p=2) | repeat 9
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | prod-cons | p_best (p=2) | repeat 10
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+
+==========================================
+Testing: rust - matmul
+==========================================
+  p_base=1, p_best=8
+
+--- Running p_base (p=1) ---
+[RUN] rust | matmul | p_base (p=1) | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | matmul | p_base (p=1) | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | matmul | p_base (p=1) | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | matmul | p_base (p=1) | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | matmul | p_base (p=1) | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | matmul | p_base (p=1) | repeat 6
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | matmul | p_base (p=1) | repeat 7
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | matmul | p_base (p=1) | repeat 8
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | matmul | p_base (p=1) | repeat 9
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | matmul | p_base (p=1) | repeat 10
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+
+--- Running p_best (p=8) ---
+[RUN] rust | matmul | p_best (p=8) | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | matmul | p_best (p=8) | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | matmul | p_best (p=8) | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | matmul | p_best (p=8) | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | matmul | p_best (p=8) | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | matmul | p_best (p=8) | repeat 6
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | matmul | p_best (p=8) | repeat 7
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | matmul | p_best (p=8) | repeat 8
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | matmul | p_best (p=8) | repeat 9
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | matmul | p_best (p=8) | repeat 10
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+
+==========================================
+Testing: rust - sort
+==========================================
+  p_base=1, p_best=8
+
+--- Running p_base (p=1) ---
+[RUN] rust | sort | p_base (p=1) | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | sort | p_base (p=1) | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | sort | p_base (p=1) | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | sort | p_base (p=1) | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | sort | p_base (p=1) | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | sort | p_base (p=1) | repeat 6
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | sort | p_base (p=1) | repeat 7
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | sort | p_base (p=1) | repeat 8
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | sort | p_base (p=1) | repeat 9
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | sort | p_base (p=1) | repeat 10
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+
+--- Running p_best (p=8) ---
+[RUN] rust | sort | p_best (p=8) | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | sort | p_best (p=8) | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | sort | p_best (p=8) | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | sort | p_best (p=8) | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | sort | p_best (p=8) | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | sort | p_best (p=8) | repeat 6
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | sort | p_best (p=8) | repeat 7
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | sort | p_best (p=8) | repeat 8
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | sort | p_best (p=8) | repeat 9
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | sort | p_best (p=8) | repeat 10
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+
+==========================================
+Testing: rust - prod-cons
+==========================================
+  p_base=1, p_best=1
+
+--- Running p_base (p=1) ---
+[RUN] rust | prod-cons | p_base (p=1) | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | prod-cons | p_base (p=1) | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | prod-cons | p_base (p=1) | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | prod-cons | p_base (p=1) | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | prod-cons | p_base (p=1) | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | prod-cons | p_base (p=1) | repeat 6
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | prod-cons | p_base (p=1) | repeat 7
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | prod-cons | p_base (p=1) | repeat 8
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | prod-cons | p_base (p=1) | repeat 9
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | prod-cons | p_base (p=1) | repeat 10
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+  (p_best == p_base, skipping duplicate)
+
+[FINAL CLEAN] resetting...
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+
+=== Phase 2 Completed at 2025-11-17T21:49:14+0700 ===
+Total runs: 2760 records
+Output saved to: /home/mole/penelitian1/Experiment/log/phase2.jsonl

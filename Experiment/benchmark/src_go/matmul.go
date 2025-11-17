@@ -4,17 +4,28 @@ import (
     "encoding/json"
     "fmt"
     "os"
-    "time"
+    "strconv"
+    "runtime"
 )
 
 const N = 1024
 
+func getThreads() int {
+    s := os.Getenv("THREADS")
+    n, err := strconv.Atoi(s)
+    if err != nil || n < 1 {
+        return 1
+    }
+    return n
+}
+
 func worker(A, B, C [][]int, sr, er int, done chan bool) {
     for i := sr; i < er; i++ {
+        row := A[i]
         for j := 0; j < N; j++ {
             s := 0
             for k := 0; k < N; k++ {
-                s += A[i][k] * B[k][j]
+                s += row[k] * B[k][j]
             }
             C[i][j] = s
         }
@@ -23,8 +34,8 @@ func worker(A, B, C [][]int, sr, er int, done chan bool) {
 }
 
 func main() {
-    threads := 1
-    fmt.Sscanf(os.Getenv("THREADS"), "%d", &threads)
+    threads := getThreads()
+    runtime.GOMAXPROCS(threads)
 
     A := make([][]int, N)
     B := make([][]int, N)
@@ -39,9 +50,8 @@ func main() {
         }
     }
 
-    start := time.Now()
     chunk := N / threads
-    done := make(chan bool)
+    done := make(chan bool, threads)
 
     for t := 0; t < threads; t++ {
         sr := t * chunk
@@ -50,16 +60,10 @@ func main() {
     }
     for t := 0; t < threads; t++ { <-done }
 
-    elapsed := time.Since(start).Seconds()
-
     out := map[string]interface{}{
-        "language":    "go",
-        "workload":    "matrix_multiplication",
-        "threads":     threads,
-        "run":         1,
-        "elapsed_s":   elapsed,
-        "peak_rss_kb": 0,
-        "cpu_pct":     0.0,
+        "language": "go",
+        "workload": "matrix_multiplication",
+        "threads":  threads,
     }
     b, _ := json.Marshal(out)
     fmt.Println(string(b))

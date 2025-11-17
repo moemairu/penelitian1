@@ -1,0 +1,23 @@
+[package]
+name = "benchmark"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "matmul"
+path = "src/matmul.rs"
+
+[[bin]]
+name = "parallel_sort"
+path = "src/parallel_sort.rs"
+
+[[bin]]
+name = "prod_cons"
+path = "src/prod_cons.rs"
+
+[profile.release]
+opt-level = 3
+lto = "fat"
+codegen-units = 1
+panic = "abort"
+strip = true

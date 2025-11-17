@@ -1,52 +1,73 @@
-import time, json, os, multiprocessing as mp
+#!/usr/bin/env python3
+# matmul.py
+# dense matrix multiplication using multiprocessing + shared memory
+# prints only minimal json at end
+
+import os
+import time
+import json
+import multiprocessing as mp
+from ctypes import c_int
 
 N = 1024
 
-def worker_matmul(args):
-    A, B, start_r, end_r = args
-    C_part = []
-    for i in range(start_r, end_r):
-        row = [0] * N
-        for j in range(N):
+def get_threads():
+    try:
+        t = int(os.getenv("THREADS", "1"))
+        return max(1, t)
+    except:
+        return 1
+
+def worker(a_arr, b_arr, c_arr, sr, er, n):
+    # a_arr, b_arr, c_arr are multiprocessing.Array('i', n*n) flattened row-major
+    for i in range(sr, er):
+        for j in range(n):
             s = 0
-            for k in range(N):
-                s += A[i][k] * B[k][j]
-            row[j] = s
-        C_part.append((i, row))
-    return C_part
+            base_i = i * n
+            for k in range(n):
+                s += a_arr[base_i + k] * b_arr[k * n + j]
+            c_arr[base_i + j] = s
 
 def main():
-    threads = int(os.environ.get("THREADS", "1"))
-    language = "python"
-    workload = "matrix_multiplication"
+    threads = get_threads()
 
-    # init matrices
-    A = [[1 for _ in range(N)] for _ in range(N)]
-    B = [[1 for _ in range(N)] for _ in range(N)]
+    # create shared flat arrays (C int)
+    size = N * N
+    a_sh = mp.Array(c_int, size, lock=False)
+    b_sh = mp.Array(c_int, size, lock=False)
+    c_sh = mp.Array(c_int, size, lock=False)
+
+    # initialize
+    for i in range(N):
+        base = i * N
+        for j in range(N):
+            a_sh[base + j] = 1
+            b_sh[base + j] = 1
+            c_sh[base + j] = 0
+
+    chunk = N // threads
+    procs = []
 
     start = time.time()
-    chunk = N // threads
-
-    args = []
     for t in range(threads):
         sr = t * chunk
-        er = (t+1) * chunk
-        args.append((A, B, sr, er))
+        er = (t + 1) * chunk if t != threads - 1 else N
+        p = mp.Process(target=worker, args=(a_sh, b_sh, c_sh, sr, er, N))
+        p.start()
+        procs.append(p)
 
-    with mp.Pool(threads) as p:
-        parts = p.map(worker_matmul, args)
-
+    for p in procs:
+        p.join()
     elapsed = time.time() - start
 
-    print(json.dumps({
-        "language": language,
-        "workload": workload,
-        "threads": threads,
-        "run": 1,
-        "elapsed_s": elapsed,
-        "peak_rss_kb": 0,
-        "cpu_pct": 0.0
-    }))
+    # only minimal json (no timings or memory)
+    out = {"language": "python", "workload": "matrix_multiplication", "threads": threads}
+    print(json.dumps(out))
 
 if __name__ == "__main__":
+    # prefer fork on linux for efficiency if available
+    try:
+        mp.set_start_method("fork")
+    except Exception:
+        pass
     main()

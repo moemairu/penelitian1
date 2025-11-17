@@ -1,0 +1,2640 @@
+{
+  "language": "python",
+  "workload": "matrix_multiplication",
+  "threads": 1,
+  "run_id": "python_phase1_matrix_multiplication_p1_r1",
+  "wall_time_s": 89.710000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 26832,
+  "phase": 1,
+  "repeat": 1
+}
+{
+  "language": "python",
+  "workload": "matrix_multiplication",
+  "threads": 1,
+  "run_id": "python_phase1_matrix_multiplication_p1_r2",
+  "wall_time_s": 90.410000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 26792,
+  "phase": 1,
+  "repeat": 2
+}
+{
+  "language": "python",
+  "workload": "matrix_multiplication",
+  "threads": 1,
+  "run_id": "python_phase1_matrix_multiplication_p1_r3",
+  "wall_time_s": 89.420000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 26776,
+  "phase": 1,
+  "repeat": 3
+}
+{
+  "language": "python",
+  "workload": "matrix_multiplication",
+  "threads": 1,
+  "run_id": "python_phase1_matrix_multiplication_p1_r4",
+  "wall_time_s": 90.680000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 26776,
+  "phase": 1,
+  "repeat": 4
+}
+{
+  "language": "python",
+  "workload": "matrix_multiplication",
+  "threads": 1,
+  "run_id": "python_phase1_matrix_multiplication_p1_r5",
+  "wall_time_s": 90.600000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 26956,
+  "phase": 1,
+  "repeat": 5
+}
+{
+  "language": "python",
+  "workload": "matrix_multiplication",
+  "threads": 2,
+  "run_id": "python_phase1_matrix_multiplication_p2_r1",
+  "wall_time_s": 46.250000,
+  "cpu_pct": 199,
+  "peak_rss_kb": 26776,
+  "phase": 1,
+  "repeat": 1
+}
+{
+  "language": "python",
+  "workload": "matrix_multiplication",
+  "threads": 2,
+  "run_id": "python_phase1_matrix_multiplication_p2_r2",
+  "wall_time_s": 46.490000,
+  "cpu_pct": 198,
+  "peak_rss_kb": 27028,
+  "phase": 1,
+  "repeat": 2
+}
+{
+  "language": "python",
+  "workload": "matrix_multiplication",
+  "threads": 2,
+  "run_id": "python_phase1_matrix_multiplication_p2_r3",
+  "wall_time_s": 46.590000,
+  "cpu_pct": 199,
+  "peak_rss_kb": 26648,
+  "phase": 1,
+  "repeat": 3
+}
+{
+  "language": "python",
+  "workload": "matrix_multiplication",
+  "threads": 2,
+  "run_id": "python_phase1_matrix_multiplication_p2_r4",
+  "wall_time_s": 47.750000,
+  "cpu_pct": 197,
+  "peak_rss_kb": 26668,
+  "phase": 1,
+  "repeat": 4
+}
+{
+  "language": "python",
+  "workload": "matrix_multiplication",
+  "threads": 2,
+  "run_id": "python_phase1_matrix_multiplication_p2_r5",
+  "wall_time_s": 46.650000,
+  "cpu_pct": 199,
+  "peak_rss_kb": 26544,
+  "phase": 1,
+  "repeat": 5
+}
+{
+  "language": "python",
+  "workload": "matrix_multiplication",
+  "threads": 4,
+  "run_id": "python_phase1_matrix_multiplication_p4_r1",
+  "wall_time_s": 26.570000,
+  "cpu_pct": 386,
+  "peak_rss_kb": 26788,
+  "phase": 1,
+  "repeat": 1
+}
+{
+  "language": "python",
+  "workload": "matrix_multiplication",
+  "threads": 4,
+  "run_id": "python_phase1_matrix_multiplication_p4_r2",
+  "wall_time_s": 25.220000,
+  "cpu_pct": 390,
+  "peak_rss_kb": 26540,
+  "phase": 1,
+  "repeat": 2
+}
+{
+  "language": "python",
+  "workload": "matrix_multiplication",
+  "threads": 4,
+  "run_id": "python_phase1_matrix_multiplication_p4_r3",
+  "wall_time_s": 24.990000,
+  "cpu_pct": 391,
+  "peak_rss_kb": 26780,
+  "phase": 1,
+  "repeat": 3
+}
+{
+  "language": "python",
+  "workload": "matrix_multiplication",
+  "threads": 4,
+  "run_id": "python_phase1_matrix_multiplication_p4_r4",
+  "wall_time_s": 25.080000,
+  "cpu_pct": 390,
+  "peak_rss_kb": 26924,
+  "phase": 1,
+  "repeat": 4
+}
+{
+  "language": "python",
+  "workload": "matrix_multiplication",
+  "threads": 4,
+  "run_id": "python_phase1_matrix_multiplication_p4_r5",
+  "wall_time_s": 28.310000,
+  "cpu_pct": 376,
+  "peak_rss_kb": 26788,
+  "phase": 1,
+  "repeat": 5
+}
+{
+  "language": "python",
+  "workload": "matrix_multiplication",
+  "threads": 8,
+  "run_id": "python_phase1_matrix_multiplication_p8_r1",
+  "wall_time_s": 13.820000,
+  "cpu_pct": 773,
+  "peak_rss_kb": 26576,
+  "phase": 1,
+  "repeat": 1
+}
+{
+  "language": "python",
+  "workload": "matrix_multiplication",
+  "threads": 8,
+  "run_id": "python_phase1_matrix_multiplication_p8_r2",
+  "wall_time_s": 14.420000,
+  "cpu_pct": 761,
+  "peak_rss_kb": 26784,
+  "phase": 1,
+  "repeat": 2
+}
+{
+  "language": "python",
+  "workload": "matrix_multiplication",
+  "threads": 8,
+  "run_id": "python_phase1_matrix_multiplication_p8_r3",
+  "wall_time_s": 14.090000,
+  "cpu_pct": 770,
+  "peak_rss_kb": 26796,
+  "phase": 1,
+  "repeat": 3
+}
+{
+  "language": "python",
+  "workload": "matrix_multiplication",
+  "threads": 8,
+  "run_id": "python_phase1_matrix_multiplication_p8_r4",
+  "wall_time_s": 14.120000,
+  "cpu_pct": 771,
+  "peak_rss_kb": 26596,
+  "phase": 1,
+  "repeat": 4
+}
+{
+  "language": "python",
+  "workload": "matrix_multiplication",
+  "threads": 8,
+  "run_id": "python_phase1_matrix_multiplication_p8_r5",
+  "wall_time_s": 14.150000,
+  "cpu_pct": 769,
+  "peak_rss_kb": 26808,
+  "phase": 1,
+  "repeat": 5
+}
+{
+  "language": "python",
+  "workload": "parallel_sort",
+  "threads": 1,
+  "run_id": "python_phase1_parallel_sort_p1_r1",
+  "wall_time_s": 0.840000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 86608,
+  "phase": 1,
+  "repeat": 1
+}
+{
+  "language": "python",
+  "workload": "parallel_sort",
+  "threads": 1,
+  "run_id": "python_phase1_parallel_sort_p1_r2",
+  "wall_time_s": 0.860000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 86588,
+  "phase": 1,
+  "repeat": 2
+}
+{
+  "language": "python",
+  "workload": "parallel_sort",
+  "threads": 1,
+  "run_id": "python_phase1_parallel_sort_p1_r3",
+  "wall_time_s": 0.830000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 86612,
+  "phase": 1,
+  "repeat": 3
+}
+{
+  "language": "python",
+  "workload": "parallel_sort",
+  "threads": 1,
+  "run_id": "python_phase1_parallel_sort_p1_r4",
+  "wall_time_s": 0.830000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 86604,
+  "phase": 1,
+  "repeat": 4
+}
+{
+  "language": "python",
+  "workload": "parallel_sort",
+  "threads": 1,
+  "run_id": "python_phase1_parallel_sort_p1_r5",
+  "wall_time_s": 0.820000,
+  "cpu_pct": 100,
+  "peak_rss_kb": 86608,
+  "phase": 1,
+  "repeat": 5
+}
+{
+  "language": "python",
+  "workload": "parallel_sort",
+  "threads": 2,
+  "run_id": "python_phase1_parallel_sort_p2_r1",
+  "wall_time_s": 0.560000,
+  "cpu_pct": 163,
+  "peak_rss_kb": 106248,
+  "phase": 1,
+  "repeat": 1
+}
+{
+  "language": "python",
+  "workload": "parallel_sort",
+  "threads": 2,
+  "run_id": "python_phase1_parallel_sort_p2_r2",
+  "wall_time_s": 0.530000,
+  "cpu_pct": 171,
+  "peak_rss_kb": 106348,
+  "phase": 1,
+  "repeat": 2
+}
+{
+  "language": "python",
+  "workload": "parallel_sort",
+  "threads": 2,
+  "run_id": "python_phase1_parallel_sort_p2_r3",
+  "wall_time_s": 0.550000,
+  "cpu_pct": 163,
+  "peak_rss_kb": 106256,
+  "phase": 1,
+  "repeat": 3
+}
+{
+  "language": "python",
+  "workload": "parallel_sort",
+  "threads": 2,
+  "run_id": "python_phase1_parallel_sort_p2_r4",
+  "wall_time_s": 0.550000,
+  "cpu_pct": 165,
+  "peak_rss_kb": 106320,
+  "phase": 1,
+  "repeat": 4
+}
+{
+  "language": "python",
+  "workload": "parallel_sort",
+  "threads": 2,
+  "run_id": "python_phase1_parallel_sort_p2_r5",
+  "wall_time_s": 0.560000,
+  "cpu_pct": 167,
+  "peak_rss_kb": 106116,
+  "phase": 1,
+  "repeat": 5
+}
+{
+  "language": "python",
+  "workload": "parallel_sort",
+  "threads": 4,
+  "run_id": "python_phase1_parallel_sort_p4_r1",
+  "wall_time_s": 0.460000,
+  "cpu_pct": 238,
+  "peak_rss_kb": 115292,
+  "phase": 1,
+  "repeat": 1
+}
+{
+  "language": "python",
+  "workload": "parallel_sort",
+  "threads": 4,
+  "run_id": "python_phase1_parallel_sort_p4_r2",
+  "wall_time_s": 0.460000,
+  "cpu_pct": 240,
+  "peak_rss_kb": 115724,
+  "phase": 1,
+  "repeat": 2
+}
+{
+  "language": "python",
+  "workload": "parallel_sort",
+  "threads": 4,
+  "run_id": "python_phase1_parallel_sort_p4_r3",
+  "wall_time_s": 0.470000,
+  "cpu_pct": 234,
+  "peak_rss_kb": 115268,
+  "phase": 1,
+  "repeat": 3
+}
+{
+  "language": "python",
+  "workload": "parallel_sort",
+  "threads": 4,
+  "run_id": "python_phase1_parallel_sort_p4_r4",
+  "wall_time_s": 0.470000,
+  "cpu_pct": 238,
+  "peak_rss_kb": 115340,
+  "phase": 1,
+  "repeat": 4
+}
+{
+  "language": "python",
+  "workload": "parallel_sort",
+  "threads": 4,
+  "run_id": "python_phase1_parallel_sort_p4_r5",
+  "wall_time_s": 0.460000,
+  "cpu_pct": 241,
+  "peak_rss_kb": 115112,
+  "phase": 1,
+  "repeat": 5
+}
+{
+  "language": "python",
+  "workload": "parallel_sort",
+  "threads": 8,
+  "run_id": "python_phase1_parallel_sort_p8_r1",
+  "wall_time_s": 0.470000,
+  "cpu_pct": 327,
+  "peak_rss_kb": 117388,
+  "phase": 1,
+  "repeat": 1
+}
+{
+  "language": "python",
+  "workload": "parallel_sort",
+  "threads": 8,
+  "run_id": "python_phase1_parallel_sort_p8_r2",
+  "wall_time_s": 0.460000,
+  "cpu_pct": 346,
+  "peak_rss_kb": 118940,
+  "phase": 1,
+  "repeat": 2
+}
+{
+  "language": "python",
+  "workload": "parallel_sort",
+  "threads": 8,
+  "run_id": "python_phase1_parallel_sort_p8_r3",
+  "wall_time_s": 0.490000,
+  "cpu_pct": 319,
+  "peak_rss_kb": 115956,
+  "phase": 1,
+  "repeat": 3
+}
+{
+  "language": "python",
+  "workload": "parallel_sort",
+  "threads": 8,
+  "run_id": "python_phase1_parallel_sort_p8_r4",
+  "wall_time_s": 0.470000,
+  "cpu_pct": 331,
+  "peak_rss_kb": 117628,
+  "phase": 1,
+  "repeat": 4
+}
+{
+  "language": "python",
+  "workload": "parallel_sort",
+  "threads": 8,
+  "run_id": "python_phase1_parallel_sort_p8_r5",
+  "wall_time_s": 0.490000,
+  "cpu_pct": 318,
+  "peak_rss_kb": 117560,
+  "phase": 1,
+  "repeat": 5
+}
+{
+  "language": "python",
+  "workload": "producer_consumer",
+  "threads": 1,
+  "run_id": "python_phase1_producer_consumer_p1_r1",
+  "wall_time_s": 6.520000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 14360,
+  "phase": 1,
+  "repeat": 1
+}
+{
+  "language": "python",
+  "workload": "producer_consumer",
+  "threads": 1,
+  "run_id": "python_phase1_producer_consumer_p1_r2",
+  "wall_time_s": 6.390000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 14520,
+  "phase": 1,
+  "repeat": 2
+}
+{
+  "language": "python",
+  "workload": "producer_consumer",
+  "threads": 1,
+  "run_id": "python_phase1_producer_consumer_p1_r3",
+  "wall_time_s": 6.590000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 14520,
+  "phase": 1,
+  "repeat": 3
+}
+{
+  "language": "python",
+  "workload": "producer_consumer",
+  "threads": 1,
+  "run_id": "python_phase1_producer_consumer_p1_r4",
+  "wall_time_s": 6.470000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 14552,
+  "phase": 1,
+  "repeat": 4
+}
+{
+  "language": "python",
+  "workload": "producer_consumer",
+  "threads": 1,
+  "run_id": "python_phase1_producer_consumer_p1_r5",
+  "wall_time_s": 6.470000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 14356,
+  "phase": 1,
+  "repeat": 5
+}
+{
+  "language": "python",
+  "workload": "producer_consumer",
+  "threads": 2,
+  "run_id": "python_phase1_producer_consumer_p2_r1",
+  "wall_time_s": 3.300000,
+  "cpu_pct": 183,
+  "peak_rss_kb": 14412,
+  "phase": 1,
+  "repeat": 1
+}
+{
+  "language": "python",
+  "workload": "producer_consumer",
+  "threads": 2,
+  "run_id": "python_phase1_producer_consumer_p2_r2",
+  "wall_time_s": 3.210000,
+  "cpu_pct": 185,
+  "peak_rss_kb": 14248,
+  "phase": 1,
+  "repeat": 2
+}
+{
+  "language": "python",
+  "workload": "producer_consumer",
+  "threads": 2,
+  "run_id": "python_phase1_producer_consumer_p2_r3",
+  "wall_time_s": 3.380000,
+  "cpu_pct": 180,
+  "peak_rss_kb": 14340,
+  "phase": 1,
+  "repeat": 3
+}
+{
+  "language": "python",
+  "workload": "producer_consumer",
+  "threads": 2,
+  "run_id": "python_phase1_producer_consumer_p2_r4",
+  "wall_time_s": 3.430000,
+  "cpu_pct": 180,
+  "peak_rss_kb": 14356,
+  "phase": 1,
+  "repeat": 4
+}
+{
+  "language": "python",
+  "workload": "producer_consumer",
+  "threads": 2,
+  "run_id": "python_phase1_producer_consumer_p2_r5",
+  "wall_time_s": 3.390000,
+  "cpu_pct": 183,
+  "peak_rss_kb": 14556,
+  "phase": 1,
+  "repeat": 5
+}
+{
+  "language": "python",
+  "workload": "producer_consumer",
+  "threads": 4,
+  "run_id": "python_phase1_producer_consumer_p4_r1",
+  "wall_time_s": 3.840000,
+  "cpu_pct": 314,
+  "peak_rss_kb": 14492,
+  "phase": 1,
+  "repeat": 1
+}
+{
+  "language": "python",
+  "workload": "producer_consumer",
+  "threads": 4,
+  "run_id": "python_phase1_producer_consumer_p4_r2",
+  "wall_time_s": 3.860000,
+  "cpu_pct": 316,
+  "peak_rss_kb": 14244,
+  "phase": 1,
+  "repeat": 2
+}
+{
+  "language": "python",
+  "workload": "producer_consumer",
+  "threads": 4,
+  "run_id": "python_phase1_producer_consumer_p4_r3",
+  "wall_time_s": 3.880000,
+  "cpu_pct": 316,
+  "peak_rss_kb": 14136,
+  "phase": 1,
+  "repeat": 3
+}
+{
+  "language": "python",
+  "workload": "producer_consumer",
+  "threads": 4,
+  "run_id": "python_phase1_producer_consumer_p4_r4",
+  "wall_time_s": 3.890000,
+  "cpu_pct": 316,
+  "peak_rss_kb": 14220,
+  "phase": 1,
+  "repeat": 4
+}
+{
+  "language": "python",
+  "workload": "producer_consumer",
+  "threads": 4,
+  "run_id": "python_phase1_producer_consumer_p4_r5",
+  "wall_time_s": 3.880000,
+  "cpu_pct": 317,
+  "peak_rss_kb": 14380,
+  "phase": 1,
+  "repeat": 5
+}
+{
+  "language": "python",
+  "workload": "producer_consumer",
+  "threads": 8,
+  "run_id": "python_phase1_producer_consumer_p8_r1",
+  "wall_time_s": 4.150000,
+  "cpu_pct": 558,
+  "peak_rss_kb": 14536,
+  "phase": 1,
+  "repeat": 1
+}
+{
+  "language": "python",
+  "workload": "producer_consumer",
+  "threads": 8,
+  "run_id": "python_phase1_producer_consumer_p8_r2",
+  "wall_time_s": 4.160000,
+  "cpu_pct": 558,
+  "peak_rss_kb": 14360,
+  "phase": 1,
+  "repeat": 2
+}
+{
+  "language": "python",
+  "workload": "producer_consumer",
+  "threads": 8,
+  "run_id": "python_phase1_producer_consumer_p8_r3",
+  "wall_time_s": 4.190000,
+  "cpu_pct": 557,
+  "peak_rss_kb": 14220,
+  "phase": 1,
+  "repeat": 3
+}
+{
+  "language": "python",
+  "workload": "producer_consumer",
+  "threads": 8,
+  "run_id": "python_phase1_producer_consumer_p8_r4",
+  "wall_time_s": 4.190000,
+  "cpu_pct": 558,
+  "peak_rss_kb": 14132,
+  "phase": 1,
+  "repeat": 4
+}
+{
+  "language": "python",
+  "workload": "producer_consumer",
+  "threads": 8,
+  "run_id": "python_phase1_producer_consumer_p8_r5",
+  "wall_time_s": 4.180000,
+  "cpu_pct": 559,
+  "peak_rss_kb": 14032,
+  "phase": 1,
+  "repeat": 5
+}
+{
+  "language": "rust",
+  "workload": "matrix_multiplication",
+  "threads": 1,
+  "run_id": "rust_phase1_matrix_multiplication_p1_r1",
+  "wall_time_s": 1.150000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 18604,
+  "phase": 1,
+  "repeat": 1
+}
+{
+  "language": "rust",
+  "workload": "matrix_multiplication",
+  "threads": 1,
+  "run_id": "rust_phase1_matrix_multiplication_p1_r2",
+  "wall_time_s": 1.140000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 18728,
+  "phase": 1,
+  "repeat": 2
+}
+{
+  "language": "rust",
+  "workload": "matrix_multiplication",
+  "threads": 1,
+  "run_id": "rust_phase1_matrix_multiplication_p1_r3",
+  "wall_time_s": 1.130000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 18540,
+  "phase": 1,
+  "repeat": 3
+}
+{
+  "language": "rust",
+  "workload": "matrix_multiplication",
+  "threads": 1,
+  "run_id": "rust_phase1_matrix_multiplication_p1_r4",
+  "wall_time_s": 1.130000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 18604,
+  "phase": 1,
+  "repeat": 4
+}
+{
+  "language": "rust",
+  "workload": "matrix_multiplication",
+  "threads": 1,
+  "run_id": "rust_phase1_matrix_multiplication_p1_r5",
+  "wall_time_s": 1.130000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 18604,
+  "phase": 1,
+  "repeat": 5
+}
+{
+  "language": "rust",
+  "workload": "matrix_multiplication",
+  "threads": 2,
+  "run_id": "rust_phase1_matrix_multiplication_p2_r1",
+  "wall_time_s": 0.570000,
+  "cpu_pct": 197,
+  "peak_rss_kb": 18476,
+  "phase": 1,
+  "repeat": 1
+}
+{
+  "language": "rust",
+  "workload": "matrix_multiplication",
+  "threads": 2,
+  "run_id": "rust_phase1_matrix_multiplication_p2_r2",
+  "wall_time_s": 0.570000,
+  "cpu_pct": 197,
+  "peak_rss_kb": 18540,
+  "phase": 1,
+  "repeat": 2
+}
+{
+  "language": "rust",
+  "workload": "matrix_multiplication",
+  "threads": 2,
+  "run_id": "rust_phase1_matrix_multiplication_p2_r3",
+  "wall_time_s": 0.570000,
+  "cpu_pct": 197,
+  "peak_rss_kb": 18472,
+  "phase": 1,
+  "repeat": 3
+}
+{
+  "language": "rust",
+  "workload": "matrix_multiplication",
+  "threads": 2,
+  "run_id": "rust_phase1_matrix_multiplication_p2_r4",
+  "wall_time_s": 0.570000,
+  "cpu_pct": 197,
+  "peak_rss_kb": 18476,
+  "phase": 1,
+  "repeat": 4
+}
+{
+  "language": "rust",
+  "workload": "matrix_multiplication",
+  "threads": 2,
+  "run_id": "rust_phase1_matrix_multiplication_p2_r5",
+  "wall_time_s": 0.570000,
+  "cpu_pct": 197,
+  "peak_rss_kb": 18540,
+  "phase": 1,
+  "repeat": 5
+}
+{
+  "language": "rust",
+  "workload": "matrix_multiplication",
+  "threads": 4,
+  "run_id": "rust_phase1_matrix_multiplication_p4_r1",
+  "wall_time_s": 0.300000,
+  "cpu_pct": 388,
+  "peak_rss_kb": 18540,
+  "phase": 1,
+  "repeat": 1
+}
+{
+  "language": "rust",
+  "workload": "matrix_multiplication",
+  "threads": 4,
+  "run_id": "rust_phase1_matrix_multiplication_p4_r2",
+  "wall_time_s": 0.300000,
+  "cpu_pct": 388,
+  "peak_rss_kb": 18472,
+  "phase": 1,
+  "repeat": 2
+}
+{
+  "language": "rust",
+  "workload": "matrix_multiplication",
+  "threads": 4,
+  "run_id": "rust_phase1_matrix_multiplication_p4_r3",
+  "wall_time_s": 0.300000,
+  "cpu_pct": 388,
+  "peak_rss_kb": 18540,
+  "phase": 1,
+  "repeat": 3
+}
+{
+  "language": "rust",
+  "workload": "matrix_multiplication",
+  "threads": 4,
+  "run_id": "rust_phase1_matrix_multiplication_p4_r4",
+  "wall_time_s": 0.300000,
+  "cpu_pct": 388,
+  "peak_rss_kb": 18476,
+  "phase": 1,
+  "repeat": 4
+}
+{
+  "language": "rust",
+  "workload": "matrix_multiplication",
+  "threads": 4,
+  "run_id": "rust_phase1_matrix_multiplication_p4_r5",
+  "wall_time_s": 0.300000,
+  "cpu_pct": 387,
+  "peak_rss_kb": 18412,
+  "phase": 1,
+  "repeat": 5
+}
+{
+  "language": "rust",
+  "workload": "matrix_multiplication",
+  "threads": 8,
+  "run_id": "rust_phase1_matrix_multiplication_p8_r1",
+  "wall_time_s": 0.160000,
+  "cpu_pct": 761,
+  "peak_rss_kb": 17968,
+  "phase": 1,
+  "repeat": 1
+}
+{
+  "language": "rust",
+  "workload": "matrix_multiplication",
+  "threads": 8,
+  "run_id": "rust_phase1_matrix_multiplication_p8_r2",
+  "wall_time_s": 0.160000,
+  "cpu_pct": 749,
+  "peak_rss_kb": 18344,
+  "phase": 1,
+  "repeat": 2
+}
+{
+  "language": "rust",
+  "workload": "matrix_multiplication",
+  "threads": 8,
+  "run_id": "rust_phase1_matrix_multiplication_p8_r3",
+  "wall_time_s": 0.160000,
+  "cpu_pct": 756,
+  "peak_rss_kb": 18540,
+  "phase": 1,
+  "repeat": 3
+}
+{
+  "language": "rust",
+  "workload": "matrix_multiplication",
+  "threads": 8,
+  "run_id": "rust_phase1_matrix_multiplication_p8_r4",
+  "wall_time_s": 0.160000,
+  "cpu_pct": 760,
+  "peak_rss_kb": 18540,
+  "phase": 1,
+  "repeat": 4
+}
+{
+  "language": "rust",
+  "workload": "matrix_multiplication",
+  "threads": 8,
+  "run_id": "rust_phase1_matrix_multiplication_p8_r5",
+  "wall_time_s": 0.160000,
+  "cpu_pct": 748,
+  "peak_rss_kb": 18412,
+  "phase": 1,
+  "repeat": 5
+}
+{
+  "language": "rust",
+  "workload": "parallel_sort",
+  "threads": 1,
+  "run_id": "rust_phase1_parallel_sort_p1_r1",
+  "wall_time_s": 0.040000,
+  "cpu_pct": 100,
+  "peak_rss_kb": 17316,
+  "phase": 1,
+  "repeat": 1
+}
+{
+  "language": "rust",
+  "workload": "parallel_sort",
+  "threads": 1,
+  "run_id": "rust_phase1_parallel_sort_p1_r2",
+  "wall_time_s": 0.040000,
+  "cpu_pct": 100,
+  "peak_rss_kb": 17388,
+  "phase": 1,
+  "repeat": 2
+}
+{
+  "language": "rust",
+  "workload": "parallel_sort",
+  "threads": 1,
+  "run_id": "rust_phase1_parallel_sort_p1_r3",
+  "wall_time_s": 0.040000,
+  "cpu_pct": 95,
+  "peak_rss_kb": 17320,
+  "phase": 1,
+  "repeat": 3
+}
+{
+  "language": "rust",
+  "workload": "parallel_sort",
+  "threads": 1,
+  "run_id": "rust_phase1_parallel_sort_p1_r4",
+  "wall_time_s": 0.040000,
+  "cpu_pct": 97,
+  "peak_rss_kb": 17320,
+  "phase": 1,
+  "repeat": 4
+}
+{
+  "language": "rust",
+  "workload": "parallel_sort",
+  "threads": 1,
+  "run_id": "rust_phase1_parallel_sort_p1_r5",
+  "wall_time_s": 0.040000,
+  "cpu_pct": 97,
+  "peak_rss_kb": 17320,
+  "phase": 1,
+  "repeat": 5
+}
+{
+  "language": "rust",
+  "workload": "parallel_sort",
+  "threads": 2,
+  "run_id": "rust_phase1_parallel_sort_p2_r1",
+  "wall_time_s": 0.040000,
+  "cpu_pct": 100,
+  "peak_rss_kb": 17168,
+  "phase": 1,
+  "repeat": 1
+}
+{
+  "language": "rust",
+  "workload": "parallel_sort",
+  "threads": 2,
+  "run_id": "rust_phase1_parallel_sort_p2_r2",
+  "wall_time_s": 0.040000,
+  "cpu_pct": 100,
+  "peak_rss_kb": 17388,
+  "phase": 1,
+  "repeat": 2
+}
+{
+  "language": "rust",
+  "workload": "parallel_sort",
+  "threads": 2,
+  "run_id": "rust_phase1_parallel_sort_p2_r3",
+  "wall_time_s": 0.040000,
+  "cpu_pct": 97,
+  "peak_rss_kb": 17388,
+  "phase": 1,
+  "repeat": 3
+}
+{
+  "language": "rust",
+  "workload": "parallel_sort",
+  "threads": 2,
+  "run_id": "rust_phase1_parallel_sort_p2_r4",
+  "wall_time_s": 0.040000,
+  "cpu_pct": 97,
+  "peak_rss_kb": 17384,
+  "phase": 1,
+  "repeat": 4
+}
+{
+  "language": "rust",
+  "workload": "parallel_sort",
+  "threads": 2,
+  "run_id": "rust_phase1_parallel_sort_p2_r5",
+  "wall_time_s": 0.040000,
+  "cpu_pct": 97,
+  "peak_rss_kb": 17324,
+  "phase": 1,
+  "repeat": 5
+}
+{
+  "language": "rust",
+  "workload": "parallel_sort",
+  "threads": 4,
+  "run_id": "rust_phase1_parallel_sort_p4_r1",
+  "wall_time_s": 0.020000,
+  "cpu_pct": 166,
+  "peak_rss_kb": 20996,
+  "phase": 1,
+  "repeat": 1
+}
+{
+  "language": "rust",
+  "workload": "parallel_sort",
+  "threads": 4,
+  "run_id": "rust_phase1_parallel_sort_p4_r2",
+  "wall_time_s": 0.020000,
+  "cpu_pct": 165,
+  "peak_rss_kb": 21068,
+  "phase": 1,
+  "repeat": 2
+}
+{
+  "language": "rust",
+  "workload": "parallel_sort",
+  "threads": 4,
+  "run_id": "rust_phase1_parallel_sort_p4_r3",
+  "wall_time_s": 0.020000,
+  "cpu_pct": 168,
+  "peak_rss_kb": 21160,
+  "phase": 1,
+  "repeat": 3
+}
+{
+  "language": "rust",
+  "workload": "parallel_sort",
+  "threads": 4,
+  "run_id": "rust_phase1_parallel_sort_p4_r4",
+  "wall_time_s": 0.020000,
+  "cpu_pct": 162,
+  "peak_rss_kb": 20780,
+  "phase": 1,
+  "repeat": 4
+}
+{
+  "language": "rust",
+  "workload": "parallel_sort",
+  "threads": 4,
+  "run_id": "rust_phase1_parallel_sort_p4_r5",
+  "wall_time_s": 0.020000,
+  "cpu_pct": 166,
+  "peak_rss_kb": 21112,
+  "phase": 1,
+  "repeat": 5
+}
+{
+  "language": "rust",
+  "workload": "parallel_sort",
+  "threads": 8,
+  "run_id": "rust_phase1_parallel_sort_p8_r1",
+  "wall_time_s": 0.020000,
+  "cpu_pct": 240,
+  "peak_rss_kb": 25408,
+  "phase": 1,
+  "repeat": 1
+}
+{
+  "language": "rust",
+  "workload": "parallel_sort",
+  "threads": 8,
+  "run_id": "rust_phase1_parallel_sort_p8_r2",
+  "wall_time_s": 0.010000,
+  "cpu_pct": 242,
+  "peak_rss_kb": 24104,
+  "phase": 1,
+  "repeat": 2
+}
+{
+  "language": "rust",
+  "workload": "parallel_sort",
+  "threads": 8,
+  "run_id": "rust_phase1_parallel_sort_p8_r3",
+  "wall_time_s": 0.010000,
+  "cpu_pct": 252,
+  "peak_rss_kb": 23848,
+  "phase": 1,
+  "repeat": 3
+}
+{
+  "language": "rust",
+  "workload": "parallel_sort",
+  "threads": 8,
+  "run_id": "rust_phase1_parallel_sort_p8_r4",
+  "wall_time_s": 0.020000,
+  "cpu_pct": 235,
+  "peak_rss_kb": 24332,
+  "phase": 1,
+  "repeat": 4
+}
+{
+  "language": "rust",
+  "workload": "parallel_sort",
+  "threads": 8,
+  "run_id": "rust_phase1_parallel_sort_p8_r5",
+  "wall_time_s": 0.010000,
+  "cpu_pct": 242,
+  "peak_rss_kb": 24296,
+  "phase": 1,
+  "repeat": 5
+}
+{
+  "language": "rust",
+  "workload": "producer_consumer",
+  "threads": 1,
+  "run_id": "rust_phase1_producer_consumer_p1_r1",
+  "wall_time_s": 0.020000,
+  "cpu_pct": 100,
+  "peak_rss_kb": 2404,
+  "phase": 1,
+  "repeat": 1
+}
+{
+  "language": "rust",
+  "workload": "producer_consumer",
+  "threads": 1,
+  "run_id": "rust_phase1_producer_consumer_p1_r2",
+  "wall_time_s": 0.020000,
+  "cpu_pct": 100,
+  "peak_rss_kb": 2284,
+  "phase": 1,
+  "repeat": 2
+}
+{
+  "language": "rust",
+  "workload": "producer_consumer",
+  "threads": 1,
+  "run_id": "rust_phase1_producer_consumer_p1_r3",
+  "wall_time_s": 0.020000,
+  "cpu_pct": 100,
+  "peak_rss_kb": 2240,
+  "phase": 1,
+  "repeat": 3
+}
+{
+  "language": "rust",
+  "workload": "producer_consumer",
+  "threads": 1,
+  "run_id": "rust_phase1_producer_consumer_p1_r4",
+  "wall_time_s": 0.020000,
+  "cpu_pct": 100,
+  "peak_rss_kb": 2240,
+  "phase": 1,
+  "repeat": 4
+}
+{
+  "language": "rust",
+  "workload": "producer_consumer",
+  "threads": 1,
+  "run_id": "rust_phase1_producer_consumer_p1_r5",
+  "wall_time_s": 0.020000,
+  "cpu_pct": 90,
+  "peak_rss_kb": 2240,
+  "phase": 1,
+  "repeat": 5
+}
+{
+  "language": "rust",
+  "workload": "producer_consumer",
+  "threads": 2,
+  "run_id": "rust_phase1_producer_consumer_p2_r1",
+  "wall_time_s": 0.040000,
+  "cpu_pct": 190,
+  "peak_rss_kb": 2192,
+  "phase": 1,
+  "repeat": 1
+}
+{
+  "language": "rust",
+  "workload": "producer_consumer",
+  "threads": 2,
+  "run_id": "rust_phase1_producer_consumer_p2_r2",
+  "wall_time_s": 0.040000,
+  "cpu_pct": 191,
+  "peak_rss_kb": 2116,
+  "phase": 1,
+  "repeat": 2
+}
+{
+  "language": "rust",
+  "workload": "producer_consumer",
+  "threads": 2,
+  "run_id": "rust_phase1_producer_consumer_p2_r3",
+  "wall_time_s": 0.040000,
+  "cpu_pct": 193,
+  "peak_rss_kb": 2244,
+  "phase": 1,
+  "repeat": 3
+}
+{
+  "language": "rust",
+  "workload": "producer_consumer",
+  "threads": 2,
+  "run_id": "rust_phase1_producer_consumer_p2_r4",
+  "wall_time_s": 0.040000,
+  "cpu_pct": 188,
+  "peak_rss_kb": 2116,
+  "phase": 1,
+  "repeat": 4
+}
+{
+  "language": "rust",
+  "workload": "producer_consumer",
+  "threads": 2,
+  "run_id": "rust_phase1_producer_consumer_p2_r5",
+  "wall_time_s": 0.040000,
+  "cpu_pct": 191,
+  "peak_rss_kb": 2248,
+  "phase": 1,
+  "repeat": 5
+}
+{
+  "language": "rust",
+  "workload": "producer_consumer",
+  "threads": 4,
+  "run_id": "rust_phase1_producer_consumer_p4_r1",
+  "wall_time_s": 0.050000,
+  "cpu_pct": 284,
+  "peak_rss_kb": 2200,
+  "phase": 1,
+  "repeat": 1
+}
+{
+  "language": "rust",
+  "workload": "producer_consumer",
+  "threads": 4,
+  "run_id": "rust_phase1_producer_consumer_p4_r2",
+  "wall_time_s": 0.040000,
+  "cpu_pct": 278,
+  "peak_rss_kb": 1988,
+  "phase": 1,
+  "repeat": 2
+}
+{
+  "language": "rust",
+  "workload": "producer_consumer",
+  "threads": 4,
+  "run_id": "rust_phase1_producer_consumer_p4_r3",
+  "wall_time_s": 0.050000,
+  "cpu_pct": 286,
+  "peak_rss_kb": 2192,
+  "phase": 1,
+  "repeat": 3
+}
+{
+  "language": "rust",
+  "workload": "producer_consumer",
+  "threads": 4,
+  "run_id": "rust_phase1_producer_consumer_p4_r4",
+  "wall_time_s": 0.050000,
+  "cpu_pct": 283,
+  "peak_rss_kb": 2304,
+  "phase": 1,
+  "repeat": 4
+}
+{
+  "language": "rust",
+  "workload": "producer_consumer",
+  "threads": 4,
+  "run_id": "rust_phase1_producer_consumer_p4_r5",
+  "wall_time_s": 0.050000,
+  "cpu_pct": 281,
+  "peak_rss_kb": 2220,
+  "phase": 1,
+  "repeat": 5
+}
+{
+  "language": "rust",
+  "workload": "producer_consumer",
+  "threads": 8,
+  "run_id": "rust_phase1_producer_consumer_p8_r1",
+  "wall_time_s": 0.250000,
+  "cpu_pct": 411,
+  "peak_rss_kb": 2176,
+  "phase": 1,
+  "repeat": 1
+}
+{
+  "language": "rust",
+  "workload": "producer_consumer",
+  "threads": 8,
+  "run_id": "rust_phase1_producer_consumer_p8_r2",
+  "wall_time_s": 0.260000,
+  "cpu_pct": 412,
+  "peak_rss_kb": 2080,
+  "phase": 1,
+  "repeat": 2
+}
+{
+  "language": "rust",
+  "workload": "producer_consumer",
+  "threads": 8,
+  "run_id": "rust_phase1_producer_consumer_p8_r3",
+  "wall_time_s": 0.240000,
+  "cpu_pct": 415,
+  "peak_rss_kb": 2120,
+  "phase": 1,
+  "repeat": 3
+}
+{
+  "language": "rust",
+  "workload": "producer_consumer",
+  "threads": 8,
+  "run_id": "rust_phase1_producer_consumer_p8_r4",
+  "wall_time_s": 0.240000,
+  "cpu_pct": 414,
+  "peak_rss_kb": 2272,
+  "phase": 1,
+  "repeat": 4
+}
+{
+  "language": "rust",
+  "workload": "producer_consumer",
+  "threads": 8,
+  "run_id": "rust_phase1_producer_consumer_p8_r5",
+  "wall_time_s": 0.270000,
+  "cpu_pct": 412,
+  "peak_rss_kb": 2096,
+  "phase": 1,
+  "repeat": 5
+}
+{
+  "language": "go",
+  "threads": 1,
+  "workload": "matrix_multiplication",
+  "run_id": "go_phase1_matrix_multiplication_p1_r1",
+  "wall_time_s": 10.060000,
+  "cpu_pct": 97,
+  "peak_rss_kb": 247304,
+  "phase": 1,
+  "repeat": 1
+}
+{
+  "language": "go",
+  "threads": 1,
+  "workload": "matrix_multiplication",
+  "run_id": "go_phase1_matrix_multiplication_p1_r2",
+  "wall_time_s": 9.820000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 247300,
+  "phase": 1,
+  "repeat": 2
+}
+{
+  "language": "go",
+  "threads": 1,
+  "workload": "matrix_multiplication",
+  "run_id": "go_phase1_matrix_multiplication_p1_r3",
+  "wall_time_s": 9.670000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 248484,
+  "phase": 1,
+  "repeat": 3
+}
+{
+  "language": "go",
+  "threads": 1,
+  "workload": "matrix_multiplication",
+  "run_id": "go_phase1_matrix_multiplication_p1_r4",
+  "wall_time_s": 9.780000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 246648,
+  "phase": 1,
+  "repeat": 4
+}
+{
+  "language": "go",
+  "threads": 1,
+  "workload": "matrix_multiplication",
+  "run_id": "go_phase1_matrix_multiplication_p1_r5",
+  "wall_time_s": 9.770000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 246732,
+  "phase": 1,
+  "repeat": 5
+}
+{
+  "language": "go",
+  "threads": 2,
+  "workload": "matrix_multiplication",
+  "run_id": "go_phase1_matrix_multiplication_p2_r1",
+  "wall_time_s": 5.510000,
+  "cpu_pct": 185,
+  "peak_rss_kb": 247108,
+  "phase": 1,
+  "repeat": 1
+}
+{
+  "language": "go",
+  "threads": 2,
+  "workload": "matrix_multiplication",
+  "run_id": "go_phase1_matrix_multiplication_p2_r2",
+  "wall_time_s": 5.500000,
+  "cpu_pct": 184,
+  "peak_rss_kb": 250580,
+  "phase": 1,
+  "repeat": 2
+}
+{
+  "language": "go",
+  "threads": 2,
+  "workload": "matrix_multiplication",
+  "run_id": "go_phase1_matrix_multiplication_p2_r3",
+  "wall_time_s": 5.490000,
+  "cpu_pct": 185,
+  "peak_rss_kb": 249132,
+  "phase": 1,
+  "repeat": 3
+}
+{
+  "language": "go",
+  "threads": 2,
+  "workload": "matrix_multiplication",
+  "run_id": "go_phase1_matrix_multiplication_p2_r4",
+  "wall_time_s": 5.530000,
+  "cpu_pct": 185,
+  "peak_rss_kb": 234156,
+  "phase": 1,
+  "repeat": 4
+}
+{
+  "language": "go",
+  "threads": 2,
+  "workload": "matrix_multiplication",
+  "run_id": "go_phase1_matrix_multiplication_p2_r5",
+  "wall_time_s": 5.500000,
+  "cpu_pct": 185,
+  "peak_rss_kb": 249580,
+  "phase": 1,
+  "repeat": 5
+}
+{
+  "language": "go",
+  "threads": 4,
+  "workload": "matrix_multiplication",
+  "run_id": "go_phase1_matrix_multiplication_p4_r1",
+  "wall_time_s": 3.710000,
+  "cpu_pct": 308,
+  "peak_rss_kb": 247096,
+  "phase": 1,
+  "repeat": 1
+}
+{
+  "language": "go",
+  "threads": 4,
+  "workload": "matrix_multiplication",
+  "run_id": "go_phase1_matrix_multiplication_p4_r2",
+  "wall_time_s": 3.980000,
+  "cpu_pct": 316,
+  "peak_rss_kb": 255104,
+  "phase": 1,
+  "repeat": 2
+}
+{
+  "language": "go",
+  "threads": 4,
+  "workload": "matrix_multiplication",
+  "run_id": "go_phase1_matrix_multiplication_p4_r3",
+  "wall_time_s": 4.070000,
+  "cpu_pct": 317,
+  "peak_rss_kb": 255356,
+  "phase": 1,
+  "repeat": 3
+}
+{
+  "language": "go",
+  "threads": 4,
+  "workload": "matrix_multiplication",
+  "run_id": "go_phase1_matrix_multiplication_p4_r4",
+  "wall_time_s": 4.080000,
+  "cpu_pct": 319,
+  "peak_rss_kb": 252368,
+  "phase": 1,
+  "repeat": 4
+}
+{
+  "language": "go",
+  "threads": 4,
+  "workload": "matrix_multiplication",
+  "run_id": "go_phase1_matrix_multiplication_p4_r5",
+  "wall_time_s": 4.020000,
+  "cpu_pct": 315,
+  "peak_rss_kb": 264840,
+  "phase": 1,
+  "repeat": 5
+}
+{
+  "language": "go",
+  "threads": 8,
+  "workload": "matrix_multiplication",
+  "run_id": "go_phase1_matrix_multiplication_p8_r1",
+  "wall_time_s": 2.820000,
+  "cpu_pct": 409,
+  "peak_rss_kb": 232048,
+  "phase": 1,
+  "repeat": 1
+}
+{
+  "language": "go",
+  "threads": 8,
+  "workload": "matrix_multiplication",
+  "run_id": "go_phase1_matrix_multiplication_p8_r2",
+  "wall_time_s": 2.850000,
+  "cpu_pct": 411,
+  "peak_rss_kb": 229076,
+  "phase": 1,
+  "repeat": 2
+}
+{
+  "language": "go",
+  "threads": 8,
+  "workload": "matrix_multiplication",
+  "run_id": "go_phase1_matrix_multiplication_p8_r3",
+  "wall_time_s": 2.890000,
+  "cpu_pct": 416,
+  "peak_rss_kb": 227288,
+  "phase": 1,
+  "repeat": 3
+}
+{
+  "language": "go",
+  "threads": 8,
+  "workload": "matrix_multiplication",
+  "run_id": "go_phase1_matrix_multiplication_p8_r4",
+  "wall_time_s": 2.840000,
+  "cpu_pct": 411,
+  "peak_rss_kb": 232316,
+  "phase": 1,
+  "repeat": 4
+}
+{
+  "language": "go",
+  "threads": 8,
+  "workload": "matrix_multiplication",
+  "run_id": "go_phase1_matrix_multiplication_p8_r5",
+  "wall_time_s": 2.920000,
+  "cpu_pct": 419,
+  "peak_rss_kb": 222320,
+  "phase": 1,
+  "repeat": 5
+}
+{
+  "language": "go",
+  "threads": 1,
+  "workload": "parallel_sort",
+  "run_id": "go_phase1_parallel_sort_p1_r1",
+  "wall_time_s": 6.140000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 249712,
+  "phase": 1,
+  "repeat": 1
+}
+{
+  "language": "go",
+  "threads": 1,
+  "workload": "parallel_sort",
+  "run_id": "go_phase1_parallel_sort_p1_r2",
+  "wall_time_s": 6.160000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 242576,
+  "phase": 1,
+  "repeat": 2
+}
+{
+  "language": "go",
+  "threads": 1,
+  "workload": "parallel_sort",
+  "run_id": "go_phase1_parallel_sort_p1_r3",
+  "wall_time_s": 6.110000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 246904,
+  "phase": 1,
+  "repeat": 3
+}
+{
+  "language": "go",
+  "threads": 1,
+  "workload": "parallel_sort",
+  "run_id": "go_phase1_parallel_sort_p1_r4",
+  "wall_time_s": 6.160000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 252852,
+  "phase": 1,
+  "repeat": 4
+}
+{
+  "language": "go",
+  "threads": 1,
+  "workload": "parallel_sort",
+  "run_id": "go_phase1_parallel_sort_p1_r5",
+  "wall_time_s": 6.150000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 245416,
+  "phase": 1,
+  "repeat": 5
+}
+{
+  "language": "go",
+  "threads": 2,
+  "workload": "parallel_sort",
+  "run_id": "go_phase1_parallel_sort_p2_r1",
+  "wall_time_s": 3.660000,
+  "cpu_pct": 179,
+  "peak_rss_kb": 249080,
+  "phase": 1,
+  "repeat": 1
+}
+{
+  "language": "go",
+  "threads": 2,
+  "workload": "parallel_sort",
+  "run_id": "go_phase1_parallel_sort_p2_r2",
+  "wall_time_s": 3.720000,
+  "cpu_pct": 177,
+  "peak_rss_kb": 250140,
+  "phase": 1,
+  "repeat": 2
+}
+{
+  "language": "go",
+  "threads": 2,
+  "workload": "parallel_sort",
+  "run_id": "go_phase1_parallel_sort_p2_r3",
+  "wall_time_s": 3.690000,
+  "cpu_pct": 177,
+  "peak_rss_kb": 244404,
+  "phase": 1,
+  "repeat": 3
+}
+{
+  "language": "go",
+  "threads": 2,
+  "workload": "parallel_sort",
+  "run_id": "go_phase1_parallel_sort_p2_r4",
+  "wall_time_s": 3.730000,
+  "cpu_pct": 178,
+  "peak_rss_kb": 253860,
+  "phase": 1,
+  "repeat": 4
+}
+{
+  "language": "go",
+  "threads": 2,
+  "workload": "parallel_sort",
+  "run_id": "go_phase1_parallel_sort_p2_r5",
+  "wall_time_s": 3.730000,
+  "cpu_pct": 178,
+  "peak_rss_kb": 257040,
+  "phase": 1,
+  "repeat": 5
+}
+{
+  "language": "go",
+  "threads": 4,
+  "workload": "parallel_sort",
+  "run_id": "go_phase1_parallel_sort_p4_r1",
+  "wall_time_s": 2.530000,
+  "cpu_pct": 267,
+  "peak_rss_kb": 254092,
+  "phase": 1,
+  "repeat": 1
+}
+{
+  "language": "go",
+  "threads": 4,
+  "workload": "parallel_sort",
+  "run_id": "go_phase1_parallel_sort_p4_r2",
+  "wall_time_s": 2.570000,
+  "cpu_pct": 268,
+  "peak_rss_kb": 246832,
+  "phase": 1,
+  "repeat": 2
+}
+{
+  "language": "go",
+  "threads": 4,
+  "workload": "parallel_sort",
+  "run_id": "go_phase1_parallel_sort_p4_r3",
+  "wall_time_s": 2.550000,
+  "cpu_pct": 271,
+  "peak_rss_kb": 250412,
+  "phase": 1,
+  "repeat": 3
+}
+{
+  "language": "go",
+  "threads": 4,
+  "workload": "parallel_sort",
+  "run_id": "go_phase1_parallel_sort_p4_r4",
+  "wall_time_s": 2.550000,
+  "cpu_pct": 268,
+  "peak_rss_kb": 254380,
+  "phase": 1,
+  "repeat": 4
+}
+{
+  "language": "go",
+  "threads": 4,
+  "workload": "parallel_sort",
+  "run_id": "go_phase1_parallel_sort_p4_r5",
+  "wall_time_s": 2.540000,
+  "cpu_pct": 271,
+  "peak_rss_kb": 250296,
+  "phase": 1,
+  "repeat": 5
+}
+{
+  "language": "go",
+  "threads": 8,
+  "workload": "parallel_sort",
+  "run_id": "go_phase1_parallel_sort_p8_r1",
+  "wall_time_s": 2.260000,
+  "cpu_pct": 316,
+  "peak_rss_kb": 228040,
+  "phase": 1,
+  "repeat": 1
+}
+{
+  "language": "go",
+  "threads": 8,
+  "workload": "parallel_sort",
+  "run_id": "go_phase1_parallel_sort_p8_r2",
+  "wall_time_s": 2.250000,
+  "cpu_pct": 321,
+  "peak_rss_kb": 233404,
+  "phase": 1,
+  "repeat": 2
+}
+{
+  "language": "go",
+  "threads": 8,
+  "workload": "parallel_sort",
+  "run_id": "go_phase1_parallel_sort_p8_r3",
+  "wall_time_s": 2.290000,
+  "cpu_pct": 317,
+  "peak_rss_kb": 228556,
+  "phase": 1,
+  "repeat": 3
+}
+{
+  "language": "go",
+  "threads": 8,
+  "workload": "parallel_sort",
+  "run_id": "go_phase1_parallel_sort_p8_r4",
+  "wall_time_s": 2.280000,
+  "cpu_pct": 315,
+  "peak_rss_kb": 226468,
+  "phase": 1,
+  "repeat": 4
+}
+{
+  "language": "go",
+  "threads": 8,
+  "workload": "parallel_sort",
+  "run_id": "go_phase1_parallel_sort_p8_r5",
+  "wall_time_s": 2.270000,
+  "cpu_pct": 318,
+  "peak_rss_kb": 230684,
+  "phase": 1,
+  "repeat": 5
+}
+{
+  "language": "go",
+  "threads": 1,
+  "workload": "producer_consumer",
+  "run_id": "go_phase1_producer_consumer_p1_r1",
+  "wall_time_s": 6.100000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 242800,
+  "phase": 1,
+  "repeat": 1
+}
+{
+  "language": "go",
+  "threads": 1,
+  "workload": "producer_consumer",
+  "run_id": "go_phase1_producer_consumer_p1_r2",
+  "wall_time_s": 6.130000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 249580,
+  "phase": 1,
+  "repeat": 2
+}
+{
+  "language": "go",
+  "threads": 1,
+  "workload": "producer_consumer",
+  "run_id": "go_phase1_producer_consumer_p1_r3",
+  "wall_time_s": 6.120000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 246492,
+  "phase": 1,
+  "repeat": 3
+}
+{
+  "language": "go",
+  "threads": 1,
+  "workload": "producer_consumer",
+  "run_id": "go_phase1_producer_consumer_p1_r4",
+  "wall_time_s": 6.110000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 249432,
+  "phase": 1,
+  "repeat": 4
+}
+{
+  "language": "go",
+  "threads": 1,
+  "workload": "producer_consumer",
+  "run_id": "go_phase1_producer_consumer_p1_r5",
+  "wall_time_s": 6.070000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 247468,
+  "phase": 1,
+  "repeat": 5
+}
+{
+  "language": "go",
+  "threads": 2,
+  "workload": "producer_consumer",
+  "run_id": "go_phase1_producer_consumer_p2_r1",
+  "wall_time_s": 3.670000,
+  "cpu_pct": 177,
+  "peak_rss_kb": 246312,
+  "phase": 1,
+  "repeat": 1
+}
+{
+  "language": "go",
+  "threads": 2,
+  "workload": "producer_consumer",
+  "run_id": "go_phase1_producer_consumer_p2_r2",
+  "wall_time_s": 3.670000,
+  "cpu_pct": 179,
+  "peak_rss_kb": 245764,
+  "phase": 1,
+  "repeat": 2
+}
+{
+  "language": "go",
+  "threads": 2,
+  "workload": "producer_consumer",
+  "run_id": "go_phase1_producer_consumer_p2_r3",
+  "wall_time_s": 3.720000,
+  "cpu_pct": 178,
+  "peak_rss_kb": 250540,
+  "phase": 1,
+  "repeat": 3
+}
+{
+  "language": "go",
+  "threads": 2,
+  "workload": "producer_consumer",
+  "run_id": "go_phase1_producer_consumer_p2_r4",
+  "wall_time_s": 3.720000,
+  "cpu_pct": 179,
+  "peak_rss_kb": 250564,
+  "phase": 1,
+  "repeat": 4
+}
+{
+  "language": "go",
+  "threads": 2,
+  "workload": "producer_consumer",
+  "run_id": "go_phase1_producer_consumer_p2_r5",
+  "wall_time_s": 3.700000,
+  "cpu_pct": 179,
+  "peak_rss_kb": 244000,
+  "phase": 1,
+  "repeat": 5
+}
+{
+  "language": "go",
+  "threads": 4,
+  "workload": "producer_consumer",
+  "run_id": "go_phase1_producer_consumer_p4_r1",
+  "wall_time_s": 2.570000,
+  "cpu_pct": 268,
+  "peak_rss_kb": 250220,
+  "phase": 1,
+  "repeat": 1
+}
+{
+  "language": "go",
+  "threads": 4,
+  "workload": "producer_consumer",
+  "run_id": "go_phase1_producer_consumer_p4_r2",
+  "wall_time_s": 2.570000,
+  "cpu_pct": 269,
+  "peak_rss_kb": 268044,
+  "phase": 1,
+  "repeat": 2
+}
+{
+  "language": "go",
+  "threads": 4,
+  "workload": "producer_consumer",
+  "run_id": "go_phase1_producer_consumer_p4_r3",
+  "wall_time_s": 2.550000,
+  "cpu_pct": 271,
+  "peak_rss_kb": 254952,
+  "phase": 1,
+  "repeat": 3
+}
+{
+  "language": "go",
+  "threads": 4,
+  "workload": "producer_consumer",
+  "run_id": "go_phase1_producer_consumer_p4_r4",
+  "wall_time_s": 2.570000,
+  "cpu_pct": 267,
+  "peak_rss_kb": 254324,
+  "phase": 1,
+  "repeat": 4
+}
+{
+  "language": "go",
+  "threads": 4,
+  "workload": "producer_consumer",
+  "run_id": "go_phase1_producer_consumer_p4_r5",
+  "wall_time_s": 2.550000,
+  "cpu_pct": 269,
+  "peak_rss_kb": 263140,
+  "phase": 1,
+  "repeat": 5
+}
+{
+  "language": "go",
+  "threads": 8,
+  "workload": "producer_consumer",
+  "run_id": "go_phase1_producer_consumer_p8_r1",
+  "wall_time_s": 2.270000,
+  "cpu_pct": 319,
+  "peak_rss_kb": 228048,
+  "phase": 1,
+  "repeat": 1
+}
+{
+  "language": "go",
+  "threads": 8,
+  "workload": "producer_consumer",
+  "run_id": "go_phase1_producer_consumer_p8_r2",
+  "wall_time_s": 2.270000,
+  "cpu_pct": 318,
+  "peak_rss_kb": 227700,
+  "phase": 1,
+  "repeat": 2
+}
+{
+  "language": "go",
+  "threads": 8,
+  "workload": "producer_consumer",
+  "run_id": "go_phase1_producer_consumer_p8_r3",
+  "wall_time_s": 2.280000,
+  "cpu_pct": 318,
+  "peak_rss_kb": 229192,
+  "phase": 1,
+  "repeat": 3
+}
+{
+  "language": "go",
+  "threads": 8,
+  "workload": "producer_consumer",
+  "run_id": "go_phase1_producer_consumer_p8_r4",
+  "wall_time_s": 2.280000,
+  "cpu_pct": 317,
+  "peak_rss_kb": 229712,
+  "phase": 1,
+  "repeat": 4
+}
+{
+  "language": "go",
+  "threads": 8,
+  "workload": "producer_consumer",
+  "run_id": "go_phase1_producer_consumer_p8_r5",
+  "wall_time_s": 2.270000,
+  "cpu_pct": 318,
+  "peak_rss_kb": 231924,
+  "phase": 1,
+  "repeat": 5
+}
+{
+  "language": "java",
+  "workload": "matrix_multiplication",
+  "threads": 1,
+  "run_id": "java_phase1_matrix_multiplication_p1_r1",
+  "wall_time_s": 1.100000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 55644,
+  "phase": 1,
+  "repeat": 1
+}
+{
+  "language": "java",
+  "workload": "matrix_multiplication",
+  "threads": 1,
+  "run_id": "java_phase1_matrix_multiplication_p1_r2",
+  "wall_time_s": 1.100000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 55684,
+  "phase": 1,
+  "repeat": 2
+}
+{
+  "language": "java",
+  "workload": "matrix_multiplication",
+  "threads": 1,
+  "run_id": "java_phase1_matrix_multiplication_p1_r3",
+  "wall_time_s": 1.100000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 55680,
+  "phase": 1,
+  "repeat": 3
+}
+{
+  "language": "java",
+  "workload": "matrix_multiplication",
+  "threads": 1,
+  "run_id": "java_phase1_matrix_multiplication_p1_r4",
+  "wall_time_s": 1.100000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 55644,
+  "phase": 1,
+  "repeat": 4
+}
+{
+  "language": "java",
+  "workload": "matrix_multiplication",
+  "threads": 1,
+  "run_id": "java_phase1_matrix_multiplication_p1_r5",
+  "wall_time_s": 1.100000,
+  "cpu_pct": 99,
+  "peak_rss_kb": 55412,
+  "phase": 1,
+  "repeat": 5
+}
+{
+  "language": "java",
+  "workload": "matrix_multiplication",
+  "threads": 2,
+  "run_id": "java_phase1_matrix_multiplication_p2_r1",
+  "wall_time_s": 0.570000,
+  "cpu_pct": 193,
+  "peak_rss_kb": 56872,
+  "phase": 1,
+  "repeat": 1
+}
+{
+  "language": "java",
+  "workload": "matrix_multiplication",
+  "threads": 2,
+  "run_id": "java_phase1_matrix_multiplication_p2_r2",
+  "wall_time_s": 0.570000,
+  "cpu_pct": 194,
+  "peak_rss_kb": 57128,
+  "phase": 1,
+  "repeat": 2
+}
+{
+  "language": "java",
+  "workload": "matrix_multiplication",
+  "threads": 2,
+  "run_id": "java_phase1_matrix_multiplication_p2_r3",
+  "wall_time_s": 0.570000,
+  "cpu_pct": 192,
+  "peak_rss_kb": 56952,
+  "phase": 1,
+  "repeat": 3
+}
+{
+  "language": "java",
+  "workload": "matrix_multiplication",
+  "threads": 2,
+  "run_id": "java_phase1_matrix_multiplication_p2_r4",
+  "wall_time_s": 0.570000,
+  "cpu_pct": 193,
+  "peak_rss_kb": 56920,
+  "phase": 1,
+  "repeat": 4
+}
+{
+  "language": "java",
+  "workload": "matrix_multiplication",
+  "threads": 2,
+  "run_id": "java_phase1_matrix_multiplication_p2_r5",
+  "wall_time_s": 0.570000,
+  "cpu_pct": 193,
+  "peak_rss_kb": 56644,
+  "phase": 1,
+  "repeat": 5
+}
+{
+  "language": "java",
+  "workload": "matrix_multiplication",
+  "threads": 4,
+  "run_id": "java_phase1_matrix_multiplication_p4_r1",
+  "wall_time_s": 0.320000,
+  "cpu_pct": 366,
+  "peak_rss_kb": 57372,
+  "phase": 1,
+  "repeat": 1
+}
+{
+  "language": "java",
+  "workload": "matrix_multiplication",
+  "threads": 4,
+  "run_id": "java_phase1_matrix_multiplication_p4_r2",
+  "wall_time_s": 0.310000,
+  "cpu_pct": 365,
+  "peak_rss_kb": 56924,
+  "phase": 1,
+  "repeat": 2
+}
+{
+  "language": "java",
+  "workload": "matrix_multiplication",
+  "threads": 4,
+  "run_id": "java_phase1_matrix_multiplication_p4_r3",
+  "wall_time_s": 0.320000,
+  "cpu_pct": 367,
+  "peak_rss_kb": 57188,
+  "phase": 1,
+  "repeat": 3
+}
+{
+  "language": "java",
+  "workload": "matrix_multiplication",
+  "threads": 4,
+  "run_id": "java_phase1_matrix_multiplication_p4_r4",
+  "wall_time_s": 0.320000,
+  "cpu_pct": 367,
+  "peak_rss_kb": 57424,
+  "phase": 1,
+  "repeat": 4
+}
+{
+  "language": "java",
+  "workload": "matrix_multiplication",
+  "threads": 4,
+  "run_id": "java_phase1_matrix_multiplication_p4_r5",
+  "wall_time_s": 0.330000,
+  "cpu_pct": 367,
+  "peak_rss_kb": 57092,
+  "phase": 1,
+  "repeat": 5
+}
+{
+  "language": "java",
+  "workload": "matrix_multiplication",
+  "threads": 8,
+  "run_id": "java_phase1_matrix_multiplication_p8_r1",
+  "wall_time_s": 0.210000,
+  "cpu_pct": 671,
+  "peak_rss_kb": 57268,
+  "phase": 1,
+  "repeat": 1
+}
+{
+  "language": "java",
+  "workload": "matrix_multiplication",
+  "threads": 8,
+  "run_id": "java_phase1_matrix_multiplication_p8_r2",
+  "wall_time_s": 0.200000,
+  "cpu_pct": 666,
+  "peak_rss_kb": 57448,
+  "phase": 1,
+  "repeat": 2
+}
+{
+  "language": "java",
+  "workload": "matrix_multiplication",
+  "threads": 8,
+  "run_id": "java_phase1_matrix_multiplication_p8_r3",
+  "wall_time_s": 0.210000,
+  "cpu_pct": 671,
+  "peak_rss_kb": 57616,
+  "phase": 1,
+  "repeat": 3
+}
+{
+  "language": "java",
+  "workload": "matrix_multiplication",
+  "threads": 8,
+  "run_id": "java_phase1_matrix_multiplication_p8_r4",
+  "wall_time_s": 0.210000,
+  "cpu_pct": 670,
+  "peak_rss_kb": 57416,
+  "phase": 1,
+  "repeat": 4
+}
+{
+  "language": "java",
+  "workload": "matrix_multiplication",
+  "threads": 8,
+  "run_id": "java_phase1_matrix_multiplication_p8_r5",
+  "wall_time_s": 0.200000,
+  "cpu_pct": 667,
+  "peak_rss_kb": 57636,
+  "phase": 1,
+  "repeat": 5
+}
+{
+  "language": "java",
+  "workload": "parallel_sort",
+  "threads": 1,
+  "run_id": "java_phase1_parallel_sort_p1_r1",
+  "wall_time_s": 0.140000,
+  "cpu_pct": 97,
+  "peak_rss_kb": 128452,
+  "phase": 1,
+  "repeat": 1
+}
+{
+  "language": "java",
+  "workload": "parallel_sort",
+  "threads": 1,
+  "run_id": "java_phase1_parallel_sort_p1_r2",
+  "wall_time_s": 0.130000,
+  "cpu_pct": 97,
+  "peak_rss_kb": 128512,
+  "phase": 1,
+  "repeat": 2
+}
+{
+  "language": "java",
+  "workload": "parallel_sort",
+  "threads": 1,
+  "run_id": "java_phase1_parallel_sort_p1_r3",
+  "wall_time_s": 0.130000,
+  "cpu_pct": 96,
+  "peak_rss_kb": 128408,
+  "phase": 1,
+  "repeat": 3
+}
+{
+  "language": "java",
+  "workload": "parallel_sort",
+  "threads": 1,
+  "run_id": "java_phase1_parallel_sort_p1_r4",
+  "wall_time_s": 0.130000,
+  "cpu_pct": 100,
+  "peak_rss_kb": 128304,
+  "phase": 1,
+  "repeat": 4
+}
+{
+  "language": "java",
+  "workload": "parallel_sort",
+  "threads": 1,
+  "run_id": "java_phase1_parallel_sort_p1_r5",
+  "wall_time_s": 0.130000,
+  "cpu_pct": 96,
+  "peak_rss_kb": 128456,
+  "phase": 1,
+  "repeat": 5
+}
+{
+  "language": "java",
+  "workload": "parallel_sort",
+  "threads": 2,
+  "run_id": "java_phase1_parallel_sort_p2_r1",
+  "wall_time_s": 0.100000,
+  "cpu_pct": 160,
+  "peak_rss_kb": 154284,
+  "phase": 1,
+  "repeat": 1
+}
+{
+  "language": "java",
+  "workload": "parallel_sort",
+  "threads": 2,
+  "run_id": "java_phase1_parallel_sort_p2_r2",
+  "wall_time_s": 0.100000,
+  "cpu_pct": 150,
+  "peak_rss_kb": 159820,
+  "phase": 1,
+  "repeat": 2
+}
+{
+  "language": "java",
+  "workload": "parallel_sort",
+  "threads": 2,
+  "run_id": "java_phase1_parallel_sort_p2_r3",
+  "wall_time_s": 0.100000,
+  "cpu_pct": 161,
+  "peak_rss_kb": 158552,
+  "phase": 1,
+  "repeat": 3
+}
+{
+  "language": "java",
+  "workload": "parallel_sort",
+  "threads": 2,
+  "run_id": "java_phase1_parallel_sort_p2_r4",
+  "wall_time_s": 0.110000,
+  "cpu_pct": 151,
+  "peak_rss_kb": 157732,
+  "phase": 1,
+  "repeat": 4
+}
+{
+  "language": "java",
+  "workload": "parallel_sort",
+  "threads": 2,
+  "run_id": "java_phase1_parallel_sort_p2_r5",
+  "wall_time_s": 0.110000,
+  "cpu_pct": 157,
+  "peak_rss_kb": 152756,
+  "phase": 1,
+  "repeat": 5
+}
+{
+  "language": "java",
+  "workload": "parallel_sort",
+  "threads": 4,
+  "run_id": "java_phase1_parallel_sort_p4_r1",
+  "wall_time_s": 0.090000,
+  "cpu_pct": 274,
+  "peak_rss_kb": 166532,
+  "phase": 1,
+  "repeat": 1
+}
+{
+  "language": "java",
+  "workload": "parallel_sort",
+  "threads": 4,
+  "run_id": "java_phase1_parallel_sort_p4_r2",
+  "wall_time_s": 0.090000,
+  "cpu_pct": 274,
+  "peak_rss_kb": 170068,
+  "phase": 1,
+  "repeat": 2
+}
+{
+  "language": "java",
+  "workload": "parallel_sort",
+  "threads": 4,
+  "run_id": "java_phase1_parallel_sort_p4_r3",
+  "wall_time_s": 0.090000,
+  "cpu_pct": 257,
+  "peak_rss_kb": 167000,
+  "phase": 1,
+  "repeat": 3
+}
+{
+  "language": "java",
+  "workload": "parallel_sort",
+  "threads": 4,
+  "run_id": "java_phase1_parallel_sort_p4_r4",
+  "wall_time_s": 0.080000,
+  "cpu_pct": 267,
+  "peak_rss_kb": 164856,
+  "phase": 1,
+  "repeat": 4
+}
+{
+  "language": "java",
+  "workload": "parallel_sort",
+  "threads": 4,
+  "run_id": "java_phase1_parallel_sort_p4_r5",
+  "wall_time_s": 0.100000,
+  "cpu_pct": 286,
+  "peak_rss_kb": 166800,
+  "phase": 1,
+  "repeat": 5
+}
+{
+  "language": "java",
+  "workload": "parallel_sort",
+  "threads": 8,
+  "run_id": "java_phase1_parallel_sort_p8_r1",
+  "wall_time_s": 0.080000,
+  "cpu_pct": 432,
+  "peak_rss_kb": 174240,
+  "phase": 1,
+  "repeat": 1
+}
+{
+  "language": "java",
+  "workload": "parallel_sort",
+  "threads": 8,
+  "run_id": "java_phase1_parallel_sort_p8_r2",
+  "wall_time_s": 0.080000,
+  "cpu_pct": 447,
+  "peak_rss_kb": 173936,
+  "phase": 1,
+  "repeat": 2
+}
+{
+  "language": "java",
+  "workload": "parallel_sort",
+  "threads": 8,
+  "run_id": "java_phase1_parallel_sort_p8_r3",
+  "wall_time_s": 0.100000,
+  "cpu_pct": 450,
+  "peak_rss_kb": 176028,
+  "phase": 1,
+  "repeat": 3
+}
+{
+  "language": "java",
+  "workload": "parallel_sort",
+  "threads": 8,
+  "run_id": "java_phase1_parallel_sort_p8_r4",
+  "wall_time_s": 0.100000,
+  "cpu_pct": 490,
+  "peak_rss_kb": 175600,
+  "phase": 1,
+  "repeat": 4
+}
+{
+  "language": "java",
+  "workload": "parallel_sort",
+  "threads": 8,
+  "run_id": "java_phase1_parallel_sort_p8_r5",
+  "wall_time_s": 0.090000,
+  "cpu_pct": 457,
+  "peak_rss_kb": 174724,
+  "phase": 1,
+  "repeat": 5
+}
+{
+  "language": "java",
+  "workload": "producer_consumer",
+  "threads": 1,
+  "run_id": "java_phase1_producer_consumer_p1_r1",
+  "wall_time_s": 0.100000,
+  "cpu_pct": 95,
+  "peak_rss_kb": 43328,
+  "phase": 1,
+  "repeat": 1
+}
+{
+  "language": "java",
+  "workload": "producer_consumer",
+  "threads": 1,
+  "run_id": "java_phase1_producer_consumer_p1_r2",
+  "wall_time_s": 0.090000,
+  "cpu_pct": 97,
+  "peak_rss_kb": 43596,
+  "phase": 1,
+  "repeat": 2
+}
+{
+  "language": "java",
+  "workload": "producer_consumer",
+  "threads": 1,
+  "run_id": "java_phase1_producer_consumer_p1_r3",
+  "wall_time_s": 0.090000,
+  "cpu_pct": 100,
+  "peak_rss_kb": 43300,
+  "phase": 1,
+  "repeat": 3
+}
+{
+  "language": "java",
+  "workload": "producer_consumer",
+  "threads": 1,
+  "run_id": "java_phase1_producer_consumer_p1_r4",
+  "wall_time_s": 0.090000,
+  "cpu_pct": 97,
+  "peak_rss_kb": 43428,
+  "phase": 1,
+  "repeat": 4
+}
+{
+  "language": "java",
+  "workload": "producer_consumer",
+  "threads": 1,
+  "run_id": "java_phase1_producer_consumer_p1_r5",
+  "wall_time_s": 0.090000,
+  "cpu_pct": 97,
+  "peak_rss_kb": 43464,
+  "phase": 1,
+  "repeat": 5
+}
+{
+  "language": "java",
+  "workload": "producer_consumer",
+  "threads": 2,
+  "run_id": "java_phase1_producer_consumer_p2_r1",
+  "wall_time_s": 0.090000,
+  "cpu_pct": 146,
+  "peak_rss_kb": 46052,
+  "phase": 1,
+  "repeat": 1
+}
+{
+  "language": "java",
+  "workload": "producer_consumer",
+  "threads": 2,
+  "run_id": "java_phase1_producer_consumer_p2_r2",
+  "wall_time_s": 0.070000,
+  "cpu_pct": 152,
+  "peak_rss_kb": 45196,
+  "phase": 1,
+  "repeat": 2
+}
+{
+  "language": "java",
+  "workload": "producer_consumer",
+  "threads": 2,
+  "run_id": "java_phase1_producer_consumer_p2_r3",
+  "wall_time_s": 0.080000,
+  "cpu_pct": 152,
+  "peak_rss_kb": 45376,
+  "phase": 1,
+  "repeat": 3
+}
+{
+  "language": "java",
+  "workload": "producer_consumer",
+  "threads": 2,
+  "run_id": "java_phase1_producer_consumer_p2_r4",
+  "wall_time_s": 0.070000,
+  "cpu_pct": 168,
+  "peak_rss_kb": 44932,
+  "phase": 1,
+  "repeat": 4
+}
+{
+  "language": "java",
+  "workload": "producer_consumer",
+  "threads": 2,
+  "run_id": "java_phase1_producer_consumer_p2_r5",
+  "wall_time_s": 0.080000,
+  "cpu_pct": 152,
+  "peak_rss_kb": 45436,
+  "phase": 1,
+  "repeat": 5
+}
+{
+  "language": "java",
+  "workload": "producer_consumer",
+  "threads": 4,
+  "run_id": "java_phase1_producer_consumer_p4_r1",
+  "wall_time_s": 0.060000,
+  "cpu_pct": 193,
+  "peak_rss_kb": 46244,
+  "phase": 1,
+  "repeat": 1
+}
+{
+  "language": "java",
+  "workload": "producer_consumer",
+  "threads": 4,
+  "run_id": "java_phase1_producer_consumer_p4_r2",
+  "wall_time_s": 0.060000,
+  "cpu_pct": 201,
+  "peak_rss_kb": 46860,
+  "phase": 1,
+  "repeat": 2
+}
+{
+  "language": "java",
+  "workload": "producer_consumer",
+  "threads": 4,
+  "run_id": "java_phase1_producer_consumer_p4_r3",
+  "wall_time_s": 0.060000,
+  "cpu_pct": 186,
+  "peak_rss_kb": 46912,
+  "phase": 1,
+  "repeat": 3
+}
+{
+  "language": "java",
+  "workload": "producer_consumer",
+  "threads": 4,
+  "run_id": "java_phase1_producer_consumer_p4_r4",
+  "wall_time_s": 0.060000,
+  "cpu_pct": 193,
+  "peak_rss_kb": 46960,
+  "phase": 1,
+  "repeat": 4
+}
+{
+  "language": "java",
+  "workload": "producer_consumer",
+  "threads": 4,
+  "run_id": "java_phase1_producer_consumer_p4_r5",
+  "wall_time_s": 0.060000,
+  "cpu_pct": 201,
+  "peak_rss_kb": 47180,
+  "phase": 1,
+  "repeat": 5
+}
+{
+  "language": "java",
+  "workload": "producer_consumer",
+  "threads": 8,
+  "run_id": "java_phase1_producer_consumer_p8_r1",
+  "wall_time_s": 0.070000,
+  "cpu_pct": 243,
+  "peak_rss_kb": 48832,
+  "phase": 1,
+  "repeat": 1
+}
+{
+  "language": "java",
+  "workload": "producer_consumer",
+  "threads": 8,
+  "run_id": "java_phase1_producer_consumer_p8_r2",
+  "wall_time_s": 0.070000,
+  "cpu_pct": 234,
+  "peak_rss_kb": 48660,
+  "phase": 1,
+  "repeat": 2
+}
+{
+  "language": "java",
+  "workload": "producer_consumer",
+  "threads": 8,
+  "run_id": "java_phase1_producer_consumer_p8_r3",
+  "wall_time_s": 0.070000,
+  "cpu_pct": 223,
+  "peak_rss_kb": 47232,
+  "phase": 1,
+  "repeat": 3
+}
+{
+  "language": "java",
+  "workload": "producer_consumer",
+  "threads": 8,
+  "run_id": "java_phase1_producer_consumer_p8_r4",
+  "wall_time_s": 0.060000,
+  "cpu_pct": 211,
+  "peak_rss_kb": 47676,
+  "phase": 1,
+  "repeat": 4
+}
+{
+  "language": "java",
+  "workload": "producer_consumer",
+  "threads": 8,
+  "run_id": "java_phase1_producer_consumer_p8_r5",
+  "wall_time_s": 0.060000,
+  "cpu_pct": 217,
+  "peak_rss_kb": 48308,
+  "phase": 1,
+  "repeat": 5
+}

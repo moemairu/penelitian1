@@ -4,54 +4,61 @@ import (
     "encoding/json"
     "fmt"
     "os"
-    "time"
+    "strconv"
+    "runtime"
 )
 
+func getThreads() int {
+    s := os.Getenv("THREADS")
+    n, err := strconv.Atoi(s)
+    if err != nil || n < 1 {
+        return 1
+    }
+    return n
+}
+
 func producer(ch chan<- int, count int) {
-    for i := 0; i < count; i++ { ch <- 1 }
+    for i := 0; i < count; i++ {
+        ch <- 1
+    }
 }
 
 func consumer(ch <-chan int, count int, done chan bool) {
-    processed := 0
-    for processed < count {
+    for i := 0; i < count; i++ {
         <-ch
-        processed++
     }
     done <- true
 }
 
 func main() {
+    threads := getThreads()
+    runtime.GOMAXPROCS(threads)
+
+    // FIXED to match Rust/Java/Python
     producers := 4
     consumers := 4
-    perProd := 250000
-    total := producers * perProd
-    threads := producers+consumers
+    total := 1_000_000
+    perProd := total / producers
+    perCons := total / consumers
 
-    ch := make(chan int,1024)
-    done := make(chan bool)
-
-    start := time.Now()
+    ch := make(chan int, 1024)
+    done := make(chan bool, consumers)
 
     for i := 0; i < producers; i++ {
         go producer(ch, perProd)
     }
+
     for i := 0; i < consumers; i++ {
-        go consumer(ch, total/consumers, done)
+        go consumer(ch, perCons, done)
     }
 
     for i := 0; i < consumers; i++ { <-done }
 
-    elapsed := time.Since(start).Seconds()
-
     out := map[string]interface{}{
-        "language":"go",
-        "workload":"producer_consumer",
-        "threads":threads,
-        "run":1,
-        "elapsed_s":elapsed,
-        "peak_rss_kb":0,
-        "cpu_pct":0.0,
+        "language": "go",
+        "workload": "producer_consumer",
+        "threads":  threads,
     }
-    b,_ := json.Marshal(out)
+    b, _ := json.Marshal(out)
     fmt.Println(string(b))
 }

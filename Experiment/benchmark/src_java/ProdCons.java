@@ -3,43 +3,48 @@ import java.util.concurrent.*;
 public class ProdCons {
     public static void main(String[] args) throws Exception {
 
-        int producers = 4;
-        int consumers = 4;
-        int perProd = 250_000;
-        int total = producers*perProd;
+        int threads = Integer.parseInt(System.getenv().getOrDefault("THREADS", "1"));
+
+        int producers = threads / 2;
+        int consumers = threads - producers;
+        if (producers < 1) producers = 1;
+        if (consumers < 1) consumers = 1;
+
+        int totalMsgs = 1_000_000;
+        int perProd = totalMsgs / producers;
+        int perCons = totalMsgs / consumers;
+
+        // FIX: pool must have >= producers + consumers
+        int poolSize = Math.max(threads, 2);
+        ExecutorService pool = Executors.newFixedThreadPool(poolSize);
 
         BlockingQueue<Integer> q = new ArrayBlockingQueue<>(1024);
-        ExecutorService pool = Executors.newFixedThreadPool(producers+consumers);
 
-        long start = System.nanoTime();
-
-        // producers
-        for(int i=0;i<producers;i++){
+        for (int i = 0; i < producers; i++) {
             pool.submit(() -> {
-                for(int n=0;n<perProd;n++){
-                    try { q.put(1);} catch(Exception e){}
-                }
+                try {
+                    for (int n = 0; n < perProd; n++) q.put(1);
+                } catch (Exception e) {}
             });
         }
 
-        // consumers
-        for(int i=0;i<consumers;i++){
+        for (int i = 0; i < consumers; i++) {
             pool.submit(() -> {
-                int processed=0;
-                while(processed < total/consumers){
-                    try{ q.take(); } catch(Exception e){}
-                    processed++;
-                }
+                int processed = 0;
+                try {
+                    while (processed < perCons) {
+                        q.take();
+                        processed++;
+                    }
+                } catch (Exception e) {}
             });
         }
 
         pool.shutdown();
-        pool.awaitTermination(5,TimeUnit.HOURS);
+        pool.awaitTermination(5, TimeUnit.HOURS);
 
-        double elapsed = (System.nanoTime()-start)/1e9;
-
-        System.out.println("{\"language\":\"java\",\"workload\":\"producer_consumer\",\"threads\":"+
-            (producers+consumers)+",\"run\":1,\"elapsed_s\":"+elapsed+
-            ",\"peak_rss_kb\":0,\"cpu_pct\":0.0}");
+        System.out.println(
+            "{\"language\":\"java\",\"workload\":\"producer_consumer\",\"threads\":"+threads+"}"
+        );
     }
 }

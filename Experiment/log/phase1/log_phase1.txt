@@ -1,0 +1,982 @@
+=== Phase 1 Benchmark Started at 2025-11-17T16:32:29+0700 ===
+Logs → /home/mole/penelitian1/Experiment/log/phase1.jsonl
+
+[INIT] check cpu governor...
+  → governor = performance
+
+=== java warm-up (5x each workload) ===
+[WARM-UP] Matmul (5x)
+
+[WARM-UP] ParallelSort (5x)
+
+[WARM-UP] ProdCons (5x)
+
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | matrix_multiplication | p=1 | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | matrix_multiplication | p=1 | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | matrix_multiplication | p=1 | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | matrix_multiplication | p=1 | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | matrix_multiplication | p=1 | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | matrix_multiplication | p=2 | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | matrix_multiplication | p=2 | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | matrix_multiplication | p=2 | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | matrix_multiplication | p=2 | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | matrix_multiplication | p=2 | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | matrix_multiplication | p=4 | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | matrix_multiplication | p=4 | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | matrix_multiplication | p=4 | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | matrix_multiplication | p=4 | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | matrix_multiplication | p=4 | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | matrix_multiplication | p=8 | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | matrix_multiplication | p=8 | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | matrix_multiplication | p=8 | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | matrix_multiplication | p=8 | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | matrix_multiplication | p=8 | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | parallel_sort | p=1 | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | parallel_sort | p=1 | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | parallel_sort | p=1 | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | parallel_sort | p=1 | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | parallel_sort | p=1 | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | parallel_sort | p=2 | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | parallel_sort | p=2 | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | parallel_sort | p=2 | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | parallel_sort | p=2 | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | parallel_sort | p=2 | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | parallel_sort | p=4 | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | parallel_sort | p=4 | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | parallel_sort | p=4 | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | parallel_sort | p=4 | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | parallel_sort | p=4 | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | parallel_sort | p=8 | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | parallel_sort | p=8 | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | parallel_sort | p=8 | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | parallel_sort | p=8 | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | parallel_sort | p=8 | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | producer_consumer | p=1 | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | producer_consumer | p=1 | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | producer_consumer | p=1 | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | producer_consumer | p=1 | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | producer_consumer | p=1 | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | producer_consumer | p=2 | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | producer_consumer | p=2 | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | producer_consumer | p=2 | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | producer_consumer | p=2 | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | producer_consumer | p=2 | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | producer_consumer | p=4 | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | producer_consumer | p=4 | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | producer_consumer | p=4 | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | producer_consumer | p=4 | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | producer_consumer | p=4 | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | producer_consumer | p=8 | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | producer_consumer | p=8 | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | producer_consumer | p=8 | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | producer_consumer | p=8 | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] python | producer_consumer | p=8 | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | matrix_multiplication | p=1 | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | matrix_multiplication | p=1 | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | matrix_multiplication | p=1 | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | matrix_multiplication | p=1 | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | matrix_multiplication | p=1 | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | matrix_multiplication | p=2 | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | matrix_multiplication | p=2 | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | matrix_multiplication | p=2 | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | matrix_multiplication | p=2 | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | matrix_multiplication | p=2 | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | matrix_multiplication | p=4 | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | matrix_multiplication | p=4 | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | matrix_multiplication | p=4 | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | matrix_multiplication | p=4 | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | matrix_multiplication | p=4 | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | matrix_multiplication | p=8 | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | matrix_multiplication | p=8 | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | matrix_multiplication | p=8 | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | matrix_multiplication | p=8 | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | matrix_multiplication | p=8 | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | parallel_sort | p=1 | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | parallel_sort | p=1 | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | parallel_sort | p=1 | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | parallel_sort | p=1 | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | parallel_sort | p=1 | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | parallel_sort | p=2 | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | parallel_sort | p=2 | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | parallel_sort | p=2 | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | parallel_sort | p=2 | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | parallel_sort | p=2 | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | parallel_sort | p=4 | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | parallel_sort | p=4 | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | parallel_sort | p=4 | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | parallel_sort | p=4 | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | parallel_sort | p=4 | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | parallel_sort | p=8 | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | parallel_sort | p=8 | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | parallel_sort | p=8 | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | parallel_sort | p=8 | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | parallel_sort | p=8 | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | producer_consumer | p=1 | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | producer_consumer | p=1 | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | producer_consumer | p=1 | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | producer_consumer | p=1 | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | producer_consumer | p=1 | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | producer_consumer | p=2 | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | producer_consumer | p=2 | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | producer_consumer | p=2 | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | producer_consumer | p=2 | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | producer_consumer | p=2 | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | producer_consumer | p=4 | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | producer_consumer | p=4 | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | producer_consumer | p=4 | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | producer_consumer | p=4 | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | producer_consumer | p=4 | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | producer_consumer | p=8 | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | producer_consumer | p=8 | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | producer_consumer | p=8 | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | producer_consumer | p=8 | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] rust | producer_consumer | p=8 | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | matrix_multiplication | p=1 | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | matrix_multiplication | p=1 | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | matrix_multiplication | p=1 | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | matrix_multiplication | p=1 | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | matrix_multiplication | p=1 | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | matrix_multiplication | p=2 | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | matrix_multiplication | p=2 | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | matrix_multiplication | p=2 | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | matrix_multiplication | p=2 | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | matrix_multiplication | p=2 | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | matrix_multiplication | p=4 | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | matrix_multiplication | p=4 | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | matrix_multiplication | p=4 | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | matrix_multiplication | p=4 | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | matrix_multiplication | p=4 | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | matrix_multiplication | p=8 | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | matrix_multiplication | p=8 | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | matrix_multiplication | p=8 | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | matrix_multiplication | p=8 | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | matrix_multiplication | p=8 | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | parallel_sort | p=1 | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | parallel_sort | p=1 | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | parallel_sort | p=1 | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | parallel_sort | p=1 | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | parallel_sort | p=1 | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | parallel_sort | p=2 | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | parallel_sort | p=2 | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | parallel_sort | p=2 | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | parallel_sort | p=2 | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | parallel_sort | p=2 | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | parallel_sort | p=4 | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | parallel_sort | p=4 | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | parallel_sort | p=4 | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | parallel_sort | p=4 | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | parallel_sort | p=4 | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | parallel_sort | p=8 | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | parallel_sort | p=8 | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | parallel_sort | p=8 | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | parallel_sort | p=8 | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | parallel_sort | p=8 | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | producer_consumer | p=1 | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | producer_consumer | p=1 | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | producer_consumer | p=1 | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | producer_consumer | p=1 | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | producer_consumer | p=1 | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | producer_consumer | p=2 | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | producer_consumer | p=2 | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | producer_consumer | p=2 | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | producer_consumer | p=2 | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | producer_consumer | p=2 | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | producer_consumer | p=4 | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | producer_consumer | p=4 | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | producer_consumer | p=4 | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | producer_consumer | p=4 | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | producer_consumer | p=4 | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | producer_consumer | p=8 | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | producer_consumer | p=8 | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | producer_consumer | p=8 | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | producer_consumer | p=8 | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] go | producer_consumer | p=8 | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | matrix_multiplication | p=1 | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | matrix_multiplication | p=1 | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | matrix_multiplication | p=1 | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | matrix_multiplication | p=1 | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | matrix_multiplication | p=1 | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | matrix_multiplication | p=2 | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | matrix_multiplication | p=2 | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | matrix_multiplication | p=2 | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | matrix_multiplication | p=2 | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | matrix_multiplication | p=2 | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | matrix_multiplication | p=4 | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | matrix_multiplication | p=4 | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | matrix_multiplication | p=4 | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | matrix_multiplication | p=4 | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | matrix_multiplication | p=4 | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | matrix_multiplication | p=8 | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | matrix_multiplication | p=8 | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | matrix_multiplication | p=8 | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | matrix_multiplication | p=8 | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | matrix_multiplication | p=8 | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | parallel_sort | p=1 | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | parallel_sort | p=1 | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | parallel_sort | p=1 | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | parallel_sort | p=1 | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | parallel_sort | p=1 | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | parallel_sort | p=2 | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | parallel_sort | p=2 | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | parallel_sort | p=2 | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | parallel_sort | p=2 | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | parallel_sort | p=2 | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | parallel_sort | p=4 | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | parallel_sort | p=4 | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | parallel_sort | p=4 | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | parallel_sort | p=4 | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | parallel_sort | p=4 | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | parallel_sort | p=8 | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | parallel_sort | p=8 | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | parallel_sort | p=8 | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | parallel_sort | p=8 | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | parallel_sort | p=8 | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | producer_consumer | p=1 | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | producer_consumer | p=1 | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | producer_consumer | p=1 | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | producer_consumer | p=1 | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | producer_consumer | p=1 | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | producer_consumer | p=2 | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | producer_consumer | p=2 | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | producer_consumer | p=2 | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | producer_consumer | p=2 | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | producer_consumer | p=2 | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | producer_consumer | p=4 | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | producer_consumer | p=4 | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | producer_consumer | p=4 | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | producer_consumer | p=4 | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | producer_consumer | p=4 | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | producer_consumer | p=8 | repeat 1
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | producer_consumer | p=8 | repeat 2
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | producer_consumer | p=8 | repeat 3
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | producer_consumer | p=8 | repeat 4
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[RUN] java | producer_consumer | p=8 | repeat 5
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+[FINAL CLEAN] resetting...
+[CLEAN] cleaning workspace...
+[CLEAN] done.
+
+=== Phase 1 Completed at 2025-11-17T16:56:54+0700 ===
+output saved to: /home/mole/penelitian1/Experiment/log/phase1.jsonl
