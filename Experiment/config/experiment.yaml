@@ -14,7 +14,7 @@ languages:
     version: "1.25.4"
     build: "go build -ldflags \"-s -w\" -trimpath"
   - name: rust
-    version: "1.91.0"
+    version: "1.91.1"
     build: "cargo build --release"
   - name: java
     version: "openjdk-25"
@@ -40,12 +40,13 @@ thread_counts: [1, 2, 4, 8]   # scanned levels
 
 adaptive_design:
   phase1:
-    run_each_config_once: true
+    run_each_config_five_times: true
+    calculate_median_speedup_effeciency: true
   phase2:
     select_configs:
       - baseline: p=1
       - parallel: "highest p with meaningful improvement from phase1"
-    repeats_per_selected_config: 5
+    repeats_per_selected_config: 10
     aggregation: median    # primary metric, no outlier removal
 
 measurement:
