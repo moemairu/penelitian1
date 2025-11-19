@@ -12,6 +12,5 @@ Ismail Faruqy
 
 Start:
 September 2025
-
 Finish:
 November 2025
